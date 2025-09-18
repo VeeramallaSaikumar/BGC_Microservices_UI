@@ -1,0 +1,24 @@
+{
+  "name": "bgc_microservices_ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "env:BGC_Admin_QA": "cross-env test_env=Cred_qa npx playwright test --grep @Admin",
+    "env:BGC_Reg_QA": "cross-env test_env=Cred_qa npx playwright test --grep @Regression",
+    "test": "node init/generate_playwright_command.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.4.0",
+    "cross-env": "^10.0.0",
+    "dotenv": "^17.2.2"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
