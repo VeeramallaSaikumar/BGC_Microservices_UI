@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "env:BGC_Admin_QA": "cross-env test_env=Cred_qa npx playwright test --grep @Admin",
+    "env:BGC_Client_QA": "cross-env test_env=Cred_qa npx playwright test --grep @Client",
+    "env:BGC_Employee_QA": "cross-env test_env=Cred_qa npx playwright test --grep @Employee",
     "env:BGC_Reg_QA": "cross-env test_env=Cred_qa npx playwright test --grep @Regression",
+    "allure:generate": "npx allure generate allure-results --clean",
+    "allure:open": "npx allure open allure-report",
     "test": "node init/generate_playwright_command.js"
   },
   "keywords": [],
@@ -15,6 +19,8 @@
   "devDependencies": {
     "@playwright/test": "^1.55.0",
     "@types/node": "^24.4.0",
+    "allure-commandline": "^2.34.1",
+    "allure-playwright": "^3.4.1",
     "cross-env": "^10.0.0",
     "dotenv": "^17.2.2"
   },

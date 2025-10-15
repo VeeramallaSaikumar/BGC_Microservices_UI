@@ -1,0 +1,118 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - navigation [ref=e5]:
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link "Dashboard Icon Dashboard" [ref=e8] [cursor=pointer]:
+              - /url: "#/employee/dashboard"
+              - img "Dashboard Icon" [ref=e10] [cursor=pointer]
+              - text: Dashboard
+          - listitem [ref=e11]
+          - listitem [ref=e12]:
+            - link "Profile Icon Profile" [ref=e13] [cursor=pointer]:
+              - /url: "#/employee/profile"
+              - img "Profile Icon" [ref=e15] [cursor=pointer]
+              - text: Profile
+          - listitem [ref=e16]
+          - listitem [ref=e17]:
+            - link "Candidates Icon Assigned Candidates" [ref=e18] [cursor=pointer]:
+              - /url: "#/employee/assignedCandidates"
+              - img "Candidates Icon" [ref=e20] [cursor=pointer]
+              - text: Assigned Candidates
+    - generic [ref=e21]:
+      - banner [ref=e22]:
+        - img "Company Logo" [ref=e25]
+        - generic [ref=e26]:
+          - generic [ref=e27]: Vikas.k
+          - img [ref=e28] [cursor=pointer]
+      - main [ref=e33]:
+        - heading "Assigned Candidates List" [level=2] [ref=e34]
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - generic [ref=e37]:
+              - text: "Entries per page:"
+              - combobox "Entries per page:" [ref=e38] [cursor=pointer]:
+                - option "5"
+                - option "10" [selected]
+                - option "20"
+            - generic [ref=e39]:
+              - textbox "Search candidates..." [ref=e40]
+              - generic: 🔍
+          - table [ref=e42]:
+            - rowgroup [ref=e43]:
+              - row "Unique ID Name Email Status Verification Actions" [ref=e44]:
+                - cell "Unique ID" [ref=e45]
+                - cell "Name" [ref=e46]
+                - cell "Email" [ref=e47]
+                - cell "Status" [ref=e48]
+                - cell "Verification" [ref=e49]
+                - cell "Actions" [ref=e50]
+            - rowgroup [ref=e51]:
+              - row "TRU000001 vikaskollu vikaskollu99@gmail.com WORK_IN_PROGRESS Start BGC View Send Mail" [ref=e52]:
+                - cell "TRU000001" [ref=e53]
+                - cell "vikaskollu" [ref=e54]
+                - cell "vikaskollu99@gmail.com" [ref=e55]
+                - cell "WORK_IN_PROGRESS" [ref=e56]:
+                  - generic [ref=e57]: WORK_IN_PROGRESS
+                - cell "Start BGC" [ref=e58]:
+                  - button "Start BGC" [ref=e59] [cursor=pointer]
+                - cell "View Send Mail" [ref=e60]:
+                  - generic [ref=e61]:
+                    - button "View" [ref=e62] [cursor=pointer]:
+                      - img "View" [ref=e63] [cursor=pointer]
+                    - button "Send Mail" [disabled] [ref=e64]:
+                      - img "Send Mail" [ref=e65]
+              - row "TRU000003 Sai kumar Veeramalla cstsaikumar@gmail.com WORK_IN_PROGRESS Start BGC View Send Mail" [ref=e66]:
+                - cell "TRU000003" [ref=e67]
+                - cell "Sai kumar Veeramalla" [ref=e68]
+                - cell "cstsaikumar@gmail.com" [ref=e69]
+                - cell "WORK_IN_PROGRESS" [ref=e70]:
+                  - generic [ref=e71]: WORK_IN_PROGRESS
+                - cell "Start BGC" [ref=e72]:
+                  - button "Start BGC" [ref=e73] [cursor=pointer]
+                - cell "View Send Mail" [ref=e74]:
+                  - generic [ref=e75]:
+                    - button "View" [ref=e76] [cursor=pointer]:
+                      - img "View" [ref=e77] [cursor=pointer]
+                    - button "Send Mail" [disabled] [ref=e78]:
+                      - img "Send Mail" [ref=e79]
+              - row "TRU000004 PavanKumar Janagam pavanjanagam99@gmail.com WORK_IN_PROGRESS Start BGC View Send Mail" [ref=e80]:
+                - cell "TRU000004" [ref=e81]
+                - cell "PavanKumar Janagam" [ref=e82]
+                - cell "pavanjanagam99@gmail.com" [ref=e83]
+                - cell "WORK_IN_PROGRESS" [ref=e84]:
+                  - generic [ref=e85]: WORK_IN_PROGRESS
+                - cell "Start BGC" [ref=e86]:
+                  - button "Start BGC" [ref=e87] [cursor=pointer]
+                - cell "View Send Mail" [ref=e88]:
+                  - generic [ref=e89]:
+                    - button "View" [ref=e90] [cursor=pointer]:
+                      - img "View" [ref=e91] [cursor=pointer]
+                    - button "Send Mail" [disabled] [ref=e92]:
+                      - img "Send Mail" [ref=e93]
+              - row "TRU000005 Sai Veeramalla saic34163+988@gmail.com VERIFIED Start BGC View Send Mail" [ref=e94]:
+                - cell "TRU000005" [ref=e95]
+                - cell "Sai Veeramalla" [ref=e96]
+                - cell "saic34163+988@gmail.com" [ref=e97]
+                - cell "VERIFIED" [ref=e98]:
+                  - generic [ref=e99]: VERIFIED
+                - cell "Start BGC" [ref=e100]:
+                  - button "Start BGC" [disabled] [ref=e101]
+                - cell "View Send Mail" [ref=e102]:
+                  - generic [ref=e103]:
+                    - button "View" [ref=e104] [cursor=pointer]:
+                      - img "View" [ref=e105] [cursor=pointer]
+                    - button "Send Mail" [ref=e106] [cursor=pointer]:
+                      - img "Send Mail" [ref=e107] [cursor=pointer]
+          - generic [ref=e108]:
+            - generic [ref=e109]: Showing 1 to 4 of 4 entries
+            - generic [ref=e110]:
+              - button "Previous" [disabled] [ref=e111]
+              - button "1" [ref=e112] [cursor=pointer]
+              - button "Next" [disabled] [ref=e113]
+  - region "Notifications Alt+T"
+```

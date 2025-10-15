@@ -1,0 +1,138 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - img "Company Logo" [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e9]: vijay.k
+        - img [ref=e10] [cursor=pointer]
+    - complementary:
+      - generic "Click to Lock Sidebar":
+        - img
+      - navigation:
+        - list:
+          - listitem:
+            - img
+            - generic: Dashboard
+          - listitem:
+            - img
+            - generic: View Profile
+          - listitem:
+            - img
+            - generic: Client List
+          - listitem:
+            - img
+            - generic: Add Employee
+          - listitem:
+            - generic:
+              - img
+              - generic: Employee List
+            - img
+    - main [ref=e14]:
+      - heading "Dashboard" [level=2] [ref=e17]
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - heading "Welcome back, vijay.k" [level=1] [ref=e21]
+          - button "+ Add Employee" [ref=e22] [cursor=pointer]
+        - generic [ref=e23]:
+          - generic [ref=e24] [cursor=pointer]:
+            - img [ref=e26] [cursor=pointer]
+            - heading "Total Clients" [level=3] [ref=e29] [cursor=pointer]
+            - generic [ref=e30] [cursor=pointer]: "1"
+          - generic [ref=e31] [cursor=pointer]:
+            - img [ref=e33] [cursor=pointer]
+            - heading "Active Employees" [level=3] [ref=e38] [cursor=pointer]
+            - generic [ref=e39] [cursor=pointer]: "4"
+          - generic [ref=e40] [cursor=pointer]:
+            - img [ref=e42] [cursor=pointer]
+            - heading "Inactive Employees" [level=3] [ref=e46] [cursor=pointer]
+            - generic [ref=e47] [cursor=pointer]: "0"
+          - generic [ref=e48]:
+            - img [ref=e50]
+            - heading "Work In Progress" [level=3] [ref=e55]
+            - generic [ref=e56]: "1"
+          - generic [ref=e57]:
+            - img [ref=e59]
+            - heading "Completed" [level=3] [ref=e62]
+            - generic [ref=e63]: "2"
+          - generic [ref=e64]:
+            - img [ref=e66]
+            - heading "Verified" [level=3] [ref=e69]
+            - generic [ref=e70]: "1"
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - heading "Overall candidates status" [level=2] [ref=e73]
+            - generic [ref=e74]:
+              - application [ref=e77]:
+                - application [ref=e78]
+              - generic [ref=e89]:
+                - generic [ref=e90]: "Active: 4"
+                - generic [ref=e92]: "Inactive: 0"
+                - generic [ref=e94]: "WIP: 1"
+                - generic [ref=e96]: "Completed: 2"
+                - generic [ref=e98]: "Verified: 1"
+          - generic [ref=e100]:
+            - heading "Activity feed" [level=2] [ref=e101]
+            - generic [ref=e104]: No recent notifications
+          - generic [ref=e105]:
+            - generic [ref=e106]:
+              - heading "Recent Candidates" [level=2] [ref=e107]
+              - generic [ref=e109]:
+                - generic [ref=e111]:
+                  - img "avatar" [ref=e112]
+                  - generic [ref=e113]:
+                    - generic [ref=e114]: John Doe
+                    - generic [ref=e115]: Profile Updated (5 mins ago)
+                - generic [ref=e117]:
+                  - img "avatar" [ref=e118]
+                  - generic [ref=e119]:
+                    - generic [ref=e120]: Jane Smith
+                    - generic [ref=e121]: Documents Submitted (1 hour ago)
+                - generic [ref=e123]:
+                  - img "avatar" [ref=e124]
+                  - generic [ref=e125]:
+                    - generic [ref=e126]: John Doe
+                    - generic [ref=e127]: Profile Updated (5 mins ago)
+                - generic [ref=e129]:
+                  - img "avatar" [ref=e130]
+                  - generic [ref=e131]:
+                    - generic [ref=e132]: Jane Smith
+                    - generic [ref=e133]: Documents Submitted (1 hour ago)
+            - generic [ref=e134]:
+              - heading "Form Submissions" [level=2] [ref=e135]
+              - generic [ref=e137]:
+                - generic [ref=e138]:
+                  - generic [ref=e139]:
+                    - img "avatar" [ref=e140]
+                    - generic [ref=e141]:
+                      - generic [ref=e142]: Saindhev
+                      - generic [ref=e143]: Submitted on 25 June
+                  - button "Request BGC" [ref=e144] [cursor=pointer]
+                - generic [ref=e145]:
+                  - generic [ref=e146]:
+                    - img "avatar" [ref=e147]
+                    - generic [ref=e148]:
+                      - generic [ref=e149]: Mahima
+                      - generic [ref=e150]: Submitted on 22 June
+                  - button "Request BGC" [ref=e151] [cursor=pointer]
+                - generic [ref=e152]:
+                  - generic [ref=e153]:
+                    - img "avatar" [ref=e154]
+                    - generic [ref=e155]:
+                      - generic [ref=e156]: Saindhev
+                      - generic [ref=e157]: Submitted on 25 June
+                  - button "Request BGC" [ref=e158] [cursor=pointer]
+                - generic [ref=e159]:
+                  - generic [ref=e160]:
+                    - img "avatar" [ref=e161]
+                    - generic [ref=e162]:
+                      - generic [ref=e163]: Mahima
+                      - generic [ref=e164]: Submitted on 22 June
+                  - button "Request BGC" [ref=e165] [cursor=pointer]
+            - generic [ref=e166]:
+              - heading "Reports" [level=2] [ref=e167]
+              - generic [ref=e170]: No reports available
+  - region "Notifications Alt+T"
+```

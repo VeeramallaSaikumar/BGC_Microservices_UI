@@ -4,7 +4,7 @@ import * as helpers from "../../utilities/helpers";
 
 test.describe("BGC-WEB-Admin-ClientList", { tag: ['@Admin', '@Regression'] }, () => {
   let stepTitle: string;
-  test("[T136] Validating Assigned Candidates button for a clent", async ({ loginPage,page,clientList }, testInfo) => {
+  test("[T136] Validating Assigned Candidates button for a clent", async ({ loginPage, page, clientList }, testInfo) => {
     stepTitle = "login";
     await test.step(stepTitle, async () => {
       await loginPage.login(ENV.ADMIN_EMAIL, ENV.ADMIN_PWD);
@@ -13,7 +13,7 @@ test.describe("BGC-WEB-Admin-ClientList", { tag: ['@Admin', '@Regression'] }, ()
     });
     stepTitle = "validating assigned candidates button";
     await test.step(stepTitle, async () => {
-    await clientList.validatingAssignedCandidatesforClient()
+      await clientList.validatingAssignedCandidatesforClient()
     })
   })
 })

@@ -1,0 +1,44 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - img "Company Logo" [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e9]: vijay.k
+        - img [ref=e10] [cursor=pointer]
+    - complementary:
+      - generic "Click to Lock Sidebar":
+        - img
+      - navigation:
+        - list:
+          - listitem:
+            - img
+            - generic: Dashboard
+          - listitem:
+            - img
+            - generic: View Profile
+          - listitem:
+            - img
+            - generic: Client List
+          - listitem:
+            - img
+            - generic: Add Employee
+          - listitem:
+            - generic:
+              - img
+              - generic: Employee List
+            - img
+    - main [ref=e14]:
+      - heading "Service Down" [level=2] [ref=e17]
+      - generic [ref=e20]:
+        - img "Service Under Maintenance" [ref=e21]
+        - generic [ref=e22]:
+          - heading "🚧 Admin Service Down" [level=1] [ref=e23]
+          - paragraph [ref=e24]:
+            - text: We’re currently performing some maintenance.
+            - text: Please check back shortly.
+          - button "Back to Dashboard" [ref=e25] [cursor=pointer]
+  - region "Notifications Alt+T"
+```

@@ -1,0 +1,104 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - img "Company Logo" [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e9]: vijay.k
+        - img [ref=e10] [cursor=pointer]
+    - complementary [ref=e14]:
+      - img [ref=e16] [cursor=pointer]
+      - navigation [ref=e17]:
+        - list [ref=e18]:
+          - listitem [ref=e19] [cursor=pointer]:
+            - img [ref=e20] [cursor=pointer]
+            - generic [ref=e25] [cursor=pointer]: Dashboard
+          - listitem [ref=e27] [cursor=pointer]:
+            - img [ref=e28] [cursor=pointer]
+            - generic [ref=e31] [cursor=pointer]: View Profile
+          - listitem [ref=e33] [cursor=pointer]:
+            - img [ref=e34] [cursor=pointer]
+            - generic [ref=e37] [cursor=pointer]: Client List
+          - listitem [ref=e39] [cursor=pointer]:
+            - img [ref=e40] [cursor=pointer]
+            - generic [ref=e43] [cursor=pointer]: Add Employee
+          - listitem [ref=e45] [cursor=pointer]:
+            - generic [ref=e46] [cursor=pointer]:
+              - img [ref=e47] [cursor=pointer]
+              - generic [ref=e50] [cursor=pointer]: Employee List
+            - img [ref=e51] [cursor=pointer]
+          - list [ref=e53]:
+            - listitem [ref=e54] [cursor=pointer]:
+              - img [ref=e55] [cursor=pointer]
+              - generic [ref=e58] [cursor=pointer]: Active Employees
+            - listitem [ref=e59] [cursor=pointer]:
+              - img [ref=e60] [cursor=pointer]
+              - generic [ref=e63] [cursor=pointer]: Inactive Employee
+    - main [ref=e64]:
+      - heading "Active Employees" [level=2] [ref=e67]
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - generic [ref=e72]:
+            - textbox "Search employee by name..." [ref=e73]
+            - button [ref=e74] [cursor=pointer]:
+              - img [ref=e75] [cursor=pointer]
+          - table [ref=e78]:
+            - rowgroup [ref=e79]:
+              - row "ID Name Email Contact Assigned Candidates Actions" [ref=e80]:
+                - cell "ID" [ref=e81] [cursor=pointer]
+                - cell "Name" [ref=e82] [cursor=pointer]
+                - cell "Email" [ref=e83] [cursor=pointer]
+                - cell "Contact" [ref=e84] [cursor=pointer]
+                - cell "Assigned Candidates" [ref=e85] [cursor=pointer]
+                - cell "Actions" [ref=e86] [cursor=pointer]
+            - rowgroup [ref=e87]:
+              - row "3 Vikas Vikas.k@clientservertech.com 7095525809 View Assigned Candidates Edit Delete" [ref=e88]:
+                - cell "3" [ref=e89]
+                - cell "Vikas" [ref=e90]
+                - cell "Vikas.k@clientservertech.com" [ref=e91]
+                - cell "7095525809" [ref=e92]
+                - cell "View Assigned Candidates" [ref=e93]:
+                  - button "View Assigned Candidates" [ref=e94] [cursor=pointer]:
+                    - img [ref=e95] [cursor=pointer]
+                - cell "Edit Delete" [ref=e100]:
+                  - generic [ref=e101]:
+                    - button "Edit" [ref=e102] [cursor=pointer]:
+                      - img [ref=e103] [cursor=pointer]
+                    - button "Delete" [ref=e106] [cursor=pointer]:
+                      - img [ref=e107] [cursor=pointer]
+              - row "4 Pavan pavanaik.e@clientservertech.com 8888888888 View Assigned Candidates Edit Delete" [ref=e110]:
+                - cell "4" [ref=e111]
+                - cell "Pavan" [ref=e112]
+                - cell "pavanaik.e@clientservertech.com" [ref=e113]
+                - cell "8888888888" [ref=e114]
+                - cell "View Assigned Candidates" [ref=e115]:
+                  - button "View Assigned Candidates" [ref=e116] [cursor=pointer]:
+                    - img [ref=e117] [cursor=pointer]
+                - cell "Edit Delete" [ref=e122]:
+                  - generic [ref=e123]:
+                    - button "Edit" [ref=e124] [cursor=pointer]:
+                      - img [ref=e125] [cursor=pointer]
+                    - button "Delete" [ref=e128] [cursor=pointer]:
+                      - img [ref=e129] [cursor=pointer]
+              - row "5 Sruthi sruthi.p@clientservertech.com 9999999999 View Assigned Candidates Edit Delete" [ref=e132]:
+                - cell "5" [ref=e133]
+                - cell "Sruthi" [ref=e134]
+                - cell "sruthi.p@clientservertech.com" [ref=e135]
+                - cell "9999999999" [ref=e136]
+                - cell "View Assigned Candidates" [ref=e137]:
+                  - button "View Assigned Candidates" [ref=e138] [cursor=pointer]:
+                    - img [ref=e139] [cursor=pointer]
+                - cell "Edit Delete" [ref=e144]:
+                  - generic [ref=e145]:
+                    - button "Edit" [ref=e146] [cursor=pointer]:
+                      - img [ref=e147] [cursor=pointer]
+                    - button "Delete" [ref=e150] [cursor=pointer]:
+                      - img [ref=e151] [cursor=pointer]
+        - generic [ref=e154]:
+          - button "Prev" [disabled] [ref=e155]
+          - generic [ref=e156]: Page 1 of 1
+          - button "Next" [disabled] [ref=e157]
+  - region "Notifications Alt+T"
+```

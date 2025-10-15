@@ -1,0 +1,96 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - navigation [ref=e5]:
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link "Dashboard Icon Dashboard" [ref=e8] [cursor=pointer]:
+              - /url: "#/employee/dashboard"
+              - img "Dashboard Icon" [ref=e10] [cursor=pointer]
+              - text: Dashboard
+          - listitem [ref=e11]
+          - listitem [ref=e12]:
+            - link "Profile Icon Profile" [ref=e13] [cursor=pointer]:
+              - /url: "#/employee/profile"
+              - img "Profile Icon" [ref=e15] [cursor=pointer]
+              - text: Profile
+          - listitem [ref=e16]
+          - listitem [ref=e17]:
+            - link "Candidates Icon Assigned Candidates" [ref=e18] [cursor=pointer]:
+              - /url: "#/employee/assignedCandidates"
+              - img "Candidates Icon" [ref=e20] [cursor=pointer]
+              - text: Assigned Candidates
+    - generic [ref=e21]:
+      - banner [ref=e22]:
+        - img "Company Logo" [ref=e25]
+        - generic [ref=e26]:
+          - generic [ref=e27]: Vikas.k
+          - img [ref=e28] [cursor=pointer]
+      - heading "Address Status" [level=2] [ref=e33]
+      - generic [ref=e35]:
+        - heading "Current Address" [level=3] [ref=e36]
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - generic [ref=e39]:
+              - strong [ref=e41]: "Address Line 1:"
+              - textbox [disabled] [ref=e42]
+            - generic [ref=e43]:
+              - strong [ref=e45]: "Address Line 2:"
+              - textbox [disabled] [ref=e46]
+            - generic [ref=e47]:
+              - strong [ref=e49]: "Country:"
+              - textbox [disabled] [ref=e50]
+            - generic [ref=e51]:
+              - strong [ref=e53]: "State:"
+              - textbox [disabled] [ref=e54]
+            - generic [ref=e55]:
+              - strong [ref=e57]: "City:"
+              - textbox [disabled] [ref=e58]
+            - generic [ref=e59]:
+              - strong [ref=e61]: "PinCode:"
+              - textbox [disabled] [ref=e62]
+          - generic [ref=e63]:
+            - strong [ref=e65]: "Address Proof:"
+            - generic [ref=e67]: No file chosen
+            - generic [ref=e69] [cursor=pointer]: Choose File
+        - heading "Permanent Address" [level=3] [ref=e70]
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - strong [ref=e75]: "Address Line 1:"
+              - textbox [disabled] [ref=e76]
+            - generic [ref=e77]:
+              - strong [ref=e79]: "Address Line 2:"
+              - textbox [disabled] [ref=e80]
+            - generic [ref=e81]:
+              - strong [ref=e83]: "Country:"
+              - textbox [disabled] [ref=e84]
+            - generic [ref=e85]:
+              - strong [ref=e87]: "State:"
+              - textbox [disabled] [ref=e88]
+            - generic [ref=e89]:
+              - strong [ref=e91]: "City:"
+              - textbox [disabled] [ref=e92]
+            - generic [ref=e93]:
+              - strong [ref=e95]: "PinCode:"
+              - textbox [disabled] [ref=e96]
+          - generic [ref=e97]:
+            - strong [ref=e99]: "Address Proof:"
+            - generic [ref=e101]: No file chosen
+            - generic [ref=e103] [cursor=pointer]: Choose File
+        - generic [ref=e104]:
+          - strong [ref=e106]: "Remarks:"
+          - textbox "Type here..." [ref=e107]
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - checkbox "Verification Status" [ref=e110] [cursor=pointer]
+            - text: Verification Status
+          - paragraph [ref=e111]: ⚠️ Once verified, this step will be locked and you cannot return to modify the address details.
+        - generic [ref=e112]:
+          - button "Cancel" [ref=e113] [cursor=pointer]
+          - button "Submit →" [ref=e114] [cursor=pointer]
+  - region "Notifications Alt+T"
+```

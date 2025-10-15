@@ -1,0 +1,133 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - navigation [ref=e5]:
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link "Dashboard Icon Dashboard" [ref=e8] [cursor=pointer]:
+              - /url: "#/employee/dashboard"
+              - img "Dashboard Icon" [ref=e10] [cursor=pointer]
+              - text: Dashboard
+          - listitem [ref=e11]
+          - listitem [ref=e12]:
+            - link "Profile Icon Profile" [ref=e13] [cursor=pointer]:
+              - /url: "#/employee/profile"
+              - img "Profile Icon" [ref=e15] [cursor=pointer]
+              - text: Profile
+          - listitem [ref=e16]
+          - listitem [ref=e17]:
+            - link "Candidates Icon Assigned Candidates" [ref=e18] [cursor=pointer]:
+              - /url: "#/employee/assignedCandidates"
+              - img "Candidates Icon" [ref=e20] [cursor=pointer]
+              - text: Assigned Candidates
+    - generic [ref=e21]:
+      - banner [ref=e22]:
+        - img "Company Logo" [ref=e25]
+        - generic [ref=e26]:
+          - generic [ref=e27]: Vikas.k
+          - img [ref=e28] [cursor=pointer]
+      - generic [ref=e32]:
+        - heading "Education Status" [level=2] [ref=e33]
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - heading "Education Details - HIGH_SCHOOL" [level=3] [ref=e36]
+            - generic [ref=e37]:
+              - generic [ref=e38]:
+                - generic [ref=e39]: Enrollment No
+                - textbox [disabled] [ref=e40]: "1430138049"
+              - generic [ref=e41]:
+                - generic [ref=e42]: Year of Enrollment
+                - textbox [disabled] [ref=e43]: 06-2013
+            - generic [ref=e44]:
+              - generic [ref=e45]:
+                - generic [ref=e46]: Year of Passout
+                - textbox [disabled] [ref=e47]: 05-2014
+              - generic [ref=e48]:
+                - generic [ref=e49]: Qualification
+                - textbox [disabled] [ref=e50]: SSC
+            - generic [ref=e51]:
+              - generic [ref=e52]:
+                - generic [ref=e53]: Specialization
+                - textbox [disabled] [ref=e54]
+              - generic [ref=e55]:
+                - generic [ref=e56]: Institute
+                - textbox [disabled] [ref=e57]: New Cambridge Grammar High School
+            - generic [ref=e59]:
+              - generic [ref=e60]: Education Proof
+              - link "MailIconGreen.png" [ref=e61] [cursor=pointer]:
+                - /url: https://bgccheckdev.s3.amazonaws.com/TRU000001/MailIconGreen.png
+              - button "Choose File" [ref=e62]
+          - generic [ref=e63]:
+            - heading "Education Details - HIGHER_SECONDARY" [level=3] [ref=e64]
+            - generic [ref=e65]:
+              - generic [ref=e66]:
+                - generic [ref=e67]: Enrollment No
+                - textbox [disabled] [ref=e68]: "1430138049"
+              - generic [ref=e69]:
+                - generic [ref=e70]: Year of Enrollment
+                - textbox [disabled] [ref=e71]: 06-2014
+            - generic [ref=e72]:
+              - generic [ref=e73]:
+                - generic [ref=e74]: Year of Passout
+                - textbox [disabled] [ref=e75]: 05-2016
+              - generic [ref=e76]:
+                - generic [ref=e77]: Qualification
+                - textbox [disabled] [ref=e78]: HigherSecondary
+            - generic [ref=e79]:
+              - generic [ref=e80]:
+                - generic [ref=e81]: Specialization
+                - textbox [disabled] [ref=e82]: Inter
+              - generic [ref=e83]:
+                - generic [ref=e84]: Institute
+                - textbox [disabled] [ref=e85]: Narayana Junior College
+            - generic [ref=e87]:
+              - generic [ref=e88]: Education Proof
+              - link "MailIconViolet.png" [ref=e89] [cursor=pointer]:
+                - /url: https://bgccheckdev.s3.amazonaws.com/TRU000001/MailIconViolet.png
+              - button "Choose File" [ref=e90]
+          - generic [ref=e91]:
+            - heading "Education Details - UNDERGRADUATE" [level=3] [ref=e92]
+            - generic [ref=e93]:
+              - generic [ref=e94]:
+                - generic [ref=e95]: Enrollment No
+                - textbox [disabled] [ref=e96]: 16N71A0453
+              - generic [ref=e97]:
+                - generic [ref=e98]: Year of Enrollment
+                - textbox [disabled] [ref=e99]: 08-2016
+            - generic [ref=e100]:
+              - generic [ref=e101]:
+                - generic [ref=e102]: Year of Passout
+                - textbox [disabled] [ref=e103]: 12-2020
+              - generic [ref=e104]:
+                - generic [ref=e105]: Qualification
+                - textbox [disabled] [ref=e106]: Undergraduate
+            - generic [ref=e107]:
+              - generic [ref=e108]:
+                - generic [ref=e109]: Specialization
+                - textbox [disabled] [ref=e110]: Electronics and Communication Engineering
+              - generic [ref=e111]:
+                - generic [ref=e112]: Institute
+                - textbox [disabled] [ref=e113]: DRK Institute of Science and Technology
+            - generic [ref=e115]:
+              - generic [ref=e116]: Education Proof
+              - link "MailIconGreen.png" [ref=e117] [cursor=pointer]:
+                - /url: https://bgccheckdev.s3.amazonaws.com/TRU000001/MailIconGreen.png
+              - button "Choose File" [ref=e118]
+          - generic [ref=e119]:
+            - generic [ref=e121]:
+              - generic [ref=e122]: Overall Remarks
+              - textbox "Type here..." [ref=e123]: verified
+            - generic [ref=e124]:
+              - generic [ref=e125] [cursor=pointer]:
+                - checkbox "Verification Status" [ref=e126] [cursor=pointer]
+                - text: Verification Status
+              - paragraph [ref=e127]: ⚠️ Once verified, this step will be locked and you cannot return to modify the education details.
+          - generic [ref=e128]:
+            - button "Cancel" [ref=e129] [cursor=pointer]
+            - button "Submit" [ref=e130] [cursor=pointer]
+    - region "Notifications Alt+T"
+  - region "Notifications Alt+T"
+```

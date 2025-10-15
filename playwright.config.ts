@@ -20,7 +20,7 @@ const resultDir = path.join(
 const config: PlaywrightTestConfig = {
   workers: 1,
   testDir: "./E2E",
-  timeout: 1000 * 1000,
+  timeout: 1000 * 100,
   expect: {
     timeout: 5000,
   },
@@ -28,7 +28,7 @@ const config: PlaywrightTestConfig = {
     //viewport: { width: 1800, height: 1000 },
     viewport: null,
     headless: false,
-    baseURL: "http://34.228.122.243/",
+    baseURL: "http://98.88.198.253/",
     screenshot: "on",
     video: "on",
     channel: "chrome",
@@ -36,10 +36,10 @@ const config: PlaywrightTestConfig = {
     actionTimeout: 0,
     //trace: 'on-first-retry',
   },
-  testMatch: ["Profile.spec.ts"],
+  testMatch: ["**.spec.ts"],
   retries: 0,
-  // reporter: [
-  //   ["html", { outputFolder: `./reports/${resultDir}`, open: "never" }],
+  reporter: [
+    ["html", { outputFolder: `./reports/${resultDir}`, open: "never" }],['allure-playwright', { outputFolder: `./reports/${resultDir}/allure-results` }],
   //   ["line"], ["allure-playwright"],
   //   ['playwright-zephyr/lib/src/cloud', {
 
@@ -52,7 +52,7 @@ const config: PlaywrightTestConfig = {
   //     },
 
   //   }],
-  // ],
+  ],
 };
 
 export default config;

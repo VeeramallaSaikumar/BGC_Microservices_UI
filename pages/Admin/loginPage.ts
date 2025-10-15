@@ -9,13 +9,13 @@ class Loginpage {
     readonly invalidLoginMsg: Locator
     readonly userNotFound: Locator
     constructor(page: Page) {
-        this.page = page;   
+        this.page = page;
         this.email = page.getByPlaceholder('Enter email or username')
         this.password = page.getByPlaceholder('Password')
         this.loginBtn = page.locator('//button[text()="Login"]')
         this.logo = page.locator('//img[@class="logo-image"]')
         this.invalidLoginMsg = page.locator("//div[text()='Invalid password']")
-        this.userNotFound=page.locator("//div[text()='User not found with this email']")
+        this.userNotFound = page.locator("//div[text()='User not found with this email']")
     }
     public async login(username: string, pwd: string) {
         await this.page.goto('/');
