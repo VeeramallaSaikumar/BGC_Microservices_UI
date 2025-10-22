@@ -1,0 +1,5 @@
+Total Candidates Assigned are: 4
+Going to next Caniddate
+Going to next Caniddate
+BGC Process started for the candidate TRU000004 with WORK_IN_PROGRESS status
+Criminal Check is completed

@@ -1,0 +1,59 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - navigation [ref=e5]:
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link "Dashboard Dashboard" [ref=e8] [cursor=pointer]:
+              - /url: "#/employee/dashboard"
+              - img "Dashboard" [ref=e10] [cursor=pointer]
+              - text: Dashboard
+          - listitem [ref=e11]
+          - listitem [ref=e12]:
+            - link "Profile Profile" [ref=e13] [cursor=pointer]:
+              - /url: "#/employee/profile"
+              - img "Profile" [ref=e15] [cursor=pointer]
+              - text: Profile
+          - listitem [ref=e16]
+          - listitem [ref=e17]:
+            - link "Assigned Candidates Assigned Candidates" [ref=e18] [cursor=pointer]:
+              - /url: "#/employee/assignedCandidates"
+              - img "Assigned Candidates" [ref=e20] [cursor=pointer]
+              - text: Assigned Candidates
+    - generic [ref=e21]:
+      - banner [ref=e22]:
+        - img "Company Logo" [ref=e25]
+        - generic [ref=e26]:
+          - generic [ref=e27]: Vikas.k
+          - img [ref=e28] [cursor=pointer]
+      - banner [ref=e32]:
+        - heading "Add Verification Proof" [level=2] [ref=e33]
+      - generic [ref=e36]:
+        - generic [ref=e38]:
+          - heading "udiuxyeidyxi989898 Proof" [level=3] [ref=e39]
+          - generic [ref=e40]:
+            - generic [ref=e41] [cursor=pointer]: Choose File
+            - generic [ref=e42]: No File chosen
+          - generic [ref=e43]: Certificate File size cannot be more than 1Mb and only PNG, JPEG files are accepted.
+        - generic [ref=e44]:
+          - generic [ref=e45]: Remarks
+          - textbox "Type here..." [ref=e46]
+          - generic [ref=e47]:
+            - generic [ref=e48] [cursor=pointer]:
+              - checkbox "Verification Status" [ref=e49]
+              - text: Verification Status
+            - paragraph [ref=e50]: ⚠️ Once verified, this step will be locked and you cannot return to modify the virtual employment details.
+        - generic [ref=e51]:
+          - button "Cancel" [ref=e52] [cursor=pointer]
+          - button "Submit" [ref=e53] [cursor=pointer]
+  - region "Notifications Alt+T":
+    - alert [ref=e55] [cursor=pointer]:
+      - img [ref=e57] [cursor=pointer]
+      - text: Email sent successfully
+      - button "close" [ref=e59] [cursor=pointer]:
+        - img [ref=e60] [cursor=pointer]
+      - progressbar "notification timer" [ref=e64] [cursor=pointer]
+```

@@ -187,16 +187,18 @@ class AssignedCandidates {
         let isClicked = false;
         for (let i = 0; i < rowsCount; i++) {
             const bgcStatus = (await this.rows.nth(i).locator(this.status).textContent())?.trim().toUpperCase();
+            const emaildis=await this.rows.nth(i).locator(this.emailIcon).isEnabled()
             const canId = await this.rows.nth(i).locator(this.uniqueID).textContent();
-            if (bgcStatus === "YET_TO_START" || bgcStatus === "WORK_IN_PROGRESS") {
+            if (bgcStatus === "YET_TO_START" && !emaildis || bgcStatus === "WORK_IN_PROGRESS" && !emaildis) {
                 await this.rows.nth(i).locator(this.startBGCBtn).click()
                 await expect(this.allDetailsHeader).toBeVisible()
                 console.log(`BGC Process started for the candidate ${canId} with ${bgcStatus} status`);
                 isClicked = true;
                 break
             }
+            if(bgcStatus === "WORK_IN_PROGRESS" && emaildis) console.log("All Checks are Completed")
             if (!isClicked) {
-                console.log("⚠️ No candidate found with status 'YET_TO_START' or 'WORK_IN_PROGRESS'.");
+                console.log("next Caniddate");
             }
         }
     }

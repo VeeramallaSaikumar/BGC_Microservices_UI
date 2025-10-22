@@ -1,0 +1,6 @@
+Total Candidates Assigned are: 4
+All Checks are Completed
+Going to next Caniddate
+BGC Process started for the candidate TRU000003 with WORK_IN_PROGRESS status
+Entries: 2
+2

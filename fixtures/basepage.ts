@@ -13,6 +13,11 @@ import AssignedCandidates from "../pages/Employee/AssignedCandidates";
 import PersonalCheck from "../pages/Employee/PersonalCheck";
 import AddressCheck from "../pages/Employee/AddressCheck"
 import EducationCheck from "../pages/Employee/EducationCheck";
+import EmploymentPhyCheck from "../pages/Employee/EmploymentPhyCheck";
+import UANCheck from "../pages/Employee/UANCheck";
+import CriminalCheck from "../pages/Employee/CriminalCheck";
+import EmployeementVirtualCheck from "../pages/Employee/EmploymentVirtualCheck";
+import EmployeeProfile from "../pages/Employee/Profile";
 
 const mytest = baseTest.extend<{
     loginPage: LoginPage;
@@ -29,7 +34,11 @@ const mytest = baseTest.extend<{
     personalCheck:PersonalCheck
     addressCheck:AddressCheck
     educationCheck:EducationCheck
-    
+    employmentPhyCheck:EmploymentPhyCheck
+    uanCheck:UANCheck
+    criminalCheck:CriminalCheck
+    employmentVirtualCheck:EmployeementVirtualCheck
+    employeeProfile:EmployeeProfile
 }>({
     loginPage: async ({page}, use) => {
       await use (new LoginPage(page));
@@ -72,6 +81,21 @@ const mytest = baseTest.extend<{
   },
   educationCheck:async({page},use)=>{
     await use(new EducationCheck(page))
+  },
+  employmentPhyCheck:async({page},use)=>{
+    await use(new EmploymentPhyCheck(page))
+  },
+  uanCheck:async({page},use)=>{
+    await use(new UANCheck(page))
+  },
+  criminalCheck:async({page},use)=>{
+    await use(new CriminalCheck(page))
+  },
+  employmentVirtualCheck:async({page},use)=>{
+    await use(new EmployeementVirtualCheck(page))
+  },
+  employeeProfile:async({page},use)=>{
+    await use(new EmployeeProfile(page))
   }
 })
 export default mytest;

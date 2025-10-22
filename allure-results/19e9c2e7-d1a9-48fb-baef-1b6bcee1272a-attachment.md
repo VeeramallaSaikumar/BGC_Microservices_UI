@@ -1,0 +1,139 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - navigation [ref=e5]:
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link "Dashboard Icon Dashboard" [ref=e8] [cursor=pointer]:
+              - /url: "#/employee/dashboard"
+              - img "Dashboard Icon" [ref=e10] [cursor=pointer]
+              - text: Dashboard
+          - listitem [ref=e11]
+          - listitem [ref=e12]:
+            - link "Profile Icon Profile" [ref=e13] [cursor=pointer]:
+              - /url: "#/employee/profile"
+              - img "Profile Icon" [ref=e15] [cursor=pointer]
+              - text: Profile
+          - listitem [ref=e16]
+          - listitem [ref=e17]:
+            - link "Candidates Icon Assigned Candidates" [ref=e18] [cursor=pointer]:
+              - /url: "#/employee/assignedCandidates"
+              - img "Candidates Icon" [ref=e20] [cursor=pointer]
+              - text: Assigned Candidates
+    - generic [ref=e21]:
+      - banner [ref=e22]:
+        - img "Company Logo" [ref=e25]
+        - generic [ref=e26]:
+          - generic [ref=e27]: Vikas.k
+          - img [ref=e28] [cursor=pointer]
+      - generic [ref=e32]:
+        - heading "Welcome back, Vikas.k" [level=1] [ref=e34]
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - generic [ref=e37]:
+              - heading "Total Candidates" [level=3] [ref=e38]
+              - generic [ref=e39]: "4"
+            - img [ref=e42]
+          - generic [ref=e45]:
+            - generic [ref=e46]:
+              - heading "Work In Progress" [level=3] [ref=e47]
+              - generic [ref=e48]: "3"
+            - img [ref=e51]
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - heading "Completed" [level=3] [ref=e58]
+              - generic [ref=e59]: "1"
+            - img [ref=e62]
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - heading "Verified" [level=3] [ref=e67]
+              - generic [ref=e68]: "0"
+            - img [ref=e71]
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - heading "Overall Status" [level=2] [ref=e76]
+            - generic [ref=e77]:
+              - application [ref=e80]:
+                - application [ref=e81]
+              - generic [ref=e88]:
+                - generic [ref=e89]:
+                  - text: "WIP:"
+                  - strong [ref=e91]: "3"
+                - generic [ref=e92]:
+                  - text: "Completed:"
+                  - strong [ref=e94]: "1"
+                - generic [ref=e95]:
+                  - text: "Verified:"
+                  - strong [ref=e97]: "0"
+          - generic [ref=e98] [cursor=pointer]:
+            - heading "Activity Feed" [level=2] [ref=e99] [cursor=pointer]
+            - generic [ref=e101] [cursor=pointer]: No recent activity.
+        - generic [ref=e102]:
+          - generic [ref=e103]:
+            - heading "Recently Added Candidates" [level=2] [ref=e104]
+            - generic [ref=e105]:
+              - generic [ref=e106]:
+                - generic [ref=e107]:
+                  - img "avatar" [ref=e108]
+                  - generic [ref=e110]: vikaskollu
+                - button "Start_BGC" [disabled] [ref=e111]
+              - generic [ref=e112]:
+                - generic [ref=e113]:
+                  - img "avatar" [ref=e114]
+                  - generic [ref=e116]: Sai kumar Veeramalla
+                - button "Start_BGC" [disabled] [ref=e117]
+              - generic [ref=e118]:
+                - generic [ref=e119]:
+                  - img "avatar" [ref=e120]
+                  - generic [ref=e122]: PavanKumar Janagam
+                - button "Start_BGC" [disabled] [ref=e123]
+              - generic [ref=e124]:
+                - generic [ref=e125]:
+                  - img "avatar" [ref=e126]
+                  - generic [ref=e128]: Sai Veeramalla
+                - button "Start_BGC" [disabled] [ref=e129]
+          - generic [ref=e130]:
+            - heading "All Candidates" [level=2] [ref=e131]
+            - generic [ref=e132]:
+              - generic [ref=e133]:
+                - generic [ref=e134]:
+                  - img "avatar" [ref=e135]
+                  - generic [ref=e136]:
+                    - generic [ref=e137]: vikaskollu
+                    - generic [ref=e138]: vikaskollu99@gmail.com
+                - generic [ref=e139]: WORK IN_PROGRESS
+              - generic [ref=e140]:
+                - generic [ref=e141]:
+                  - img "avatar" [ref=e142]
+                  - generic [ref=e143]:
+                    - generic [ref=e144]: Sai kumar Veeramalla
+                    - generic [ref=e145]: cstsaikumar@gmail.com
+                - generic [ref=e146]: WORK IN_PROGRESS
+              - generic [ref=e147]:
+                - generic [ref=e148]:
+                  - img "avatar" [ref=e149]
+                  - generic [ref=e150]:
+                    - generic [ref=e151]: PavanKumar Janagam
+                    - generic [ref=e152]: pavanjanagam99@gmail.com
+                - generic [ref=e153]: WORK IN_PROGRESS
+              - generic [ref=e154]:
+                - generic [ref=e155]:
+                  - img "avatar" [ref=e156]
+                  - generic [ref=e157]:
+                    - generic [ref=e158]: Sai Veeramalla
+                    - generic [ref=e159]: saic34163+988@gmail.com
+                - generic [ref=e160]: COMPLETED
+          - generic [ref=e161]:
+            - heading "Verified & Completed" [level=2] [ref=e162]
+            - generic [ref=e164]:
+              - generic [ref=e165]:
+                - img "avatar" [ref=e166]
+                - generic [ref=e167]:
+                  - generic [ref=e168]: Sai Veeramalla
+                  - generic [ref=e169]: saic34163+988@gmail.com
+              - img "Download Report" [ref=e170] [cursor=pointer]
+  - region "Notifications Alt+T"
+```

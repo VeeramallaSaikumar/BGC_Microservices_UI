@@ -1,0 +1,5 @@
+Total Candidates Assigned are: 4
+next Caniddate
+next Caniddate
+BGC Process started for the candidate TRU000004 with WORK_IN_PROGRESS status
+Employment Check is already done

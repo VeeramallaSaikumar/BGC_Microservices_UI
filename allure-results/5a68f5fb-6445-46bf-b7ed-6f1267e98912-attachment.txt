@@ -1,0 +1,10 @@
+Total Candidates Assigned are: 4
+next Caniddate
+next Caniddate
+BGC Process started for the candidate TRU000004 with WORK_IN_PROGRESS status
+Candidate worked in : 1
+Hr contact Number: 9876543212
+Hr Email ID: pavanjanagam99@gmail.com
+No.of times the eamil trrigered is : 5
+last email triigered on date: 22/10/2025
+Orgnaization name: udiuxyeidyxi989898 Proof
