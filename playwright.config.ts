@@ -18,7 +18,9 @@ const resultDir = path.join(
 );
 
 const config: PlaywrightTestConfig = {
-  workers: 1,
+  workers: process.env.CI ? 1:undefined,
+  fullyParallel: true,
+  retries: process.env.CI ? 2 :0,
   testDir: "./E2E",
   timeout: 1000 * 100,
   expect: {
@@ -37,9 +39,8 @@ const config: PlaywrightTestConfig = {
     //trace: 'on-first-retry',
   },
   testMatch: ["**.spec.ts"],
-  retries: 0,
   reporter: [
-    ["html", { outputFolder: `./reports/${resultDir}`, open: "never" }],['allure-playwright', { outputFolder: `./reports/${resultDir}/allure-results` }],["line"]
+    ["html", { outputFolder: `./reports/${resultDir}`, open: "never" }],['allure-playwright', { outputFolder: `./reports/${resultDir}/allure-results` }],["line"],["github"]
   //   ["line"], ["allure-playwright"],
   //   ['playwright-zephyr/lib/src/cloud', {
 

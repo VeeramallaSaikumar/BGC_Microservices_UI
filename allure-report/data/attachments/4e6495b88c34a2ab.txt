@@ -1,0 +1,2 @@
+Total Candidates Assigned are: 4
+BGC Process started for the candidate TRU000001 with WORK_IN_PROGRESS status

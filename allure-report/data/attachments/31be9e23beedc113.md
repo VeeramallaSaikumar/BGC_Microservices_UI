@@ -1,0 +1,50 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - navigation [ref=e5]:
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link "Dashboard Icon Dashboard" [ref=e8] [cursor=pointer]:
+              - /url: "#/employee/dashboard"
+              - img "Dashboard Icon" [ref=e10] [cursor=pointer]
+              - text: Dashboard
+          - listitem [ref=e11]
+          - listitem [ref=e12]:
+            - link "Profile Icon Profile" [ref=e13] [cursor=pointer]:
+              - /url: "#/employee/profile"
+              - img "Profile Icon" [ref=e15] [cursor=pointer]
+              - text: Profile
+          - listitem [ref=e16]
+          - listitem [ref=e17]:
+            - link "Candidates Icon Assigned Candidates" [ref=e18] [cursor=pointer]:
+              - /url: "#/employee/assignedCandidates"
+              - img "Candidates Icon" [ref=e20] [cursor=pointer]
+              - text: Assigned Candidates
+    - generic [ref=e21]:
+      - banner [ref=e22]:
+        - img "Company Logo" [ref=e25]
+        - generic [ref=e26]:
+          - generic [ref=e27]: Vikas.k
+          - img [ref=e28] [cursor=pointer]
+      - heading "All Details" [level=2] [ref=e32]
+      - generic [ref=e34]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: Personal Info
+          - generic [ref=e38]: Completed
+        - generic [ref=e40]:
+          - generic [ref=e41]: Address Info
+          - generic [ref=e42]: Completed
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - generic [ref=e45]: Education Info
+            - paragraph [ref=e46]: "Entries: 3"
+            - generic [ref=e47]: Work In Progress
+          - button "✎" [ref=e49] [cursor=pointer]
+        - generic [ref=e51]:
+          - generic [ref=e52]: Criminal Check
+          - generic [ref=e53]: Completed
+  - region "Notifications Alt+T"
+```

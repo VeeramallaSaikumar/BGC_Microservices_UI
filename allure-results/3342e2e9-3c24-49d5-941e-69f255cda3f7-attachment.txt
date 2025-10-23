@@ -1,0 +1,6 @@
+Total Candidates Assigned are: 4
+Summary of BGC Status:
+-----------------------
+Work in Progress Candidates: 1
+Verified Candidates: 2
+Completed Candidates: 1

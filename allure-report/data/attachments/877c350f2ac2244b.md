@@ -1,0 +1,64 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - navigation [ref=e5]:
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link "Dashboard Dashboard" [ref=e8] [cursor=pointer]:
+              - /url: "#/employee/dashboard"
+              - img "Dashboard" [ref=e10] [cursor=pointer]
+              - text: Dashboard
+          - listitem [ref=e11]
+          - listitem [ref=e12]:
+            - link "Profile Profile" [ref=e13] [cursor=pointer]:
+              - /url: "#/employee/profile"
+              - img "Profile" [ref=e15] [cursor=pointer]
+              - text: Profile
+          - listitem [ref=e16]
+          - listitem [ref=e17]:
+            - link "Assigned Candidates Assigned Candidates" [ref=e18] [cursor=pointer]:
+              - /url: "#/employee/assignedCandidates"
+              - img "Assigned Candidates" [ref=e20] [cursor=pointer]
+              - text: Assigned Candidates
+    - generic [ref=e21]:
+      - banner [ref=e22]:
+        - img "Company Logo" [ref=e25]
+        - generic [ref=e26]:
+          - generic [ref=e27]: Vikas.k
+          - img [ref=e28] [cursor=pointer]
+      - banner [ref=e32]:
+        - heading "Virtual Verification" [level=1] [ref=e33]
+      - generic [ref=e35]:
+        - generic [ref=e36]: Company HR Contact Status
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - generic [ref=e40]: Candidate Name
+            - textbox [ref=e41]: Guntakandla
+          - generic [ref=e42]:
+            - generic [ref=e43]: Candidate Email
+            - textbox [ref=e44]: pavanjanagam99@gmail.com
+        - generic [ref=e46] [cursor=pointer]:
+          - radio "HR Contact Number 9876543212 HR Contact Email pavanjanagam99@gmail.com Mail Triggered 2 Last Sent On 22/10/2025" [checked] [ref=e47]
+          - generic [ref=e48] [cursor=pointer]:
+            - generic [ref=e49] [cursor=pointer]:
+              - generic [ref=e50] [cursor=pointer]: HR Contact Number
+              - generic [ref=e51] [cursor=pointer]: "9876543212"
+            - generic [ref=e52] [cursor=pointer]:
+              - generic [ref=e53] [cursor=pointer]: HR Contact Email
+              - generic [ref=e54] [cursor=pointer]: pavanjanagam99@gmail.com
+            - generic [ref=e55] [cursor=pointer]:
+              - generic [ref=e56] [cursor=pointer]: Mail Triggered
+              - generic [ref=e57] [cursor=pointer]: "2"
+            - generic [ref=e58] [cursor=pointer]:
+              - generic [ref=e59] [cursor=pointer]: Last Sent On
+              - generic [ref=e60] [cursor=pointer]: 22/10/2025
+        - generic [ref=e61]:
+          - button "Cancel" [ref=e62] [cursor=pointer]
+          - button "Send Email" [ref=e63] [cursor=pointer]:
+            - text: Send Email
+            - img [ref=e64] [cursor=pointer]
+  - region "Notifications Alt+T"
+```

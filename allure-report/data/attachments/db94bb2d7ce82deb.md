@@ -1,0 +1,116 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - navigation [ref=e5]:
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link "Dashboard Dashboard" [ref=e8] [cursor=pointer]:
+              - /url: "#/employee/dashboard"
+              - img "Dashboard" [ref=e10] [cursor=pointer]
+              - text: Dashboard
+          - listitem [ref=e11]
+          - listitem [ref=e12]:
+            - link "Profile Profile" [ref=e13] [cursor=pointer]:
+              - /url: "#/employee/profile"
+              - img "Profile" [ref=e15] [cursor=pointer]
+              - text: Profile
+          - listitem [ref=e16]
+          - listitem [ref=e17]:
+            - link "Assigned Candidates Assigned Candidates" [ref=e18] [cursor=pointer]:
+              - /url: "#/employee/assignedCandidates"
+              - img "Assigned Candidates" [ref=e20] [cursor=pointer]
+              - text: Assigned Candidates
+    - generic [ref=e21]:
+      - banner [ref=e22]:
+        - img "Company Logo" [ref=e25]
+        - generic [ref=e26]:
+          - generic [ref=e27]: Vikas.k
+          - img [ref=e28] [cursor=pointer]
+      - heading "Employment Verification" [level=2] [ref=e33]
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - heading "Employment Details" [level=3] [ref=e37]
+          - generic [ref=e38]:
+            - generic [ref=e39]:
+              - generic [ref=e40]: Employee Code
+              - textbox [disabled] [ref=e41]: "321987"
+            - generic [ref=e42]:
+              - generic [ref=e43]: Company Name
+              - textbox [disabled] [ref=e44]: Fuji
+          - generic [ref=e45]:
+            - generic [ref=e46]:
+              - generic [ref=e47]: Designation
+              - textbox [disabled] [ref=e48]: qa
+            - generic [ref=e49]:
+              - generic [ref=e50]: Location
+              - textbox [disabled] [ref=e51]: Hyderabad
+          - generic [ref=e52]:
+            - generic [ref=e53]:
+              - generic [ref=e54]: HR Contact Number
+              - textbox [disabled] [ref=e55]: "9873633434"
+            - generic [ref=e56]:
+              - generic [ref=e57]: HR Contact Email
+              - textbox [disabled] [ref=e58]: saikumar@gmail.com
+          - generic [ref=e59]:
+            - generic [ref=e60]:
+              - generic [ref=e61]: Working From
+              - textbox [disabled] [ref=e62]: "2022"
+            - generic [ref=e63]:
+              - generic [ref=e64]: Working To
+              - textbox [disabled] [ref=e65]: "2022"
+          - generic [ref=e67]:
+            - generic [ref=e68]: Employment Proof
+            - link "experience_letter_for_sales_manager_aba063248c.webp" [ref=e69] [cursor=pointer]:
+              - /url: https://bgccheckdev.s3.amazonaws.com/TRU000003/experience_letter_for_sales_manager_aba063248c.webp
+            - button "Choose File" [ref=e70]
+        - generic [ref=e71]:
+          - heading "Employment Details" [level=3] [ref=e72]
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - generic [ref=e75]: Employee Code
+              - textbox [disabled] [ref=e76]: "234324"
+            - generic [ref=e77]:
+              - generic [ref=e78]: Company Name
+              - textbox [disabled] [ref=e79]: End Tech
+          - generic [ref=e80]:
+            - generic [ref=e81]:
+              - generic [ref=e82]: Designation
+              - textbox [disabled] [ref=e83]: QA
+            - generic [ref=e84]:
+              - generic [ref=e85]: Location
+              - textbox [disabled] [ref=e86]
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - generic [ref=e89]: HR Contact Number
+              - textbox [disabled] [ref=e90]
+            - generic [ref=e91]:
+              - generic [ref=e92]: HR Contact Email
+              - textbox [disabled] [ref=e93]: saikumar9898@gmail.com
+          - generic [ref=e94]:
+            - generic [ref=e95]:
+              - generic [ref=e96]: Working From
+              - textbox [disabled] [ref=e97]: 02-03-2022
+            - generic [ref=e98]:
+              - generic [ref=e99]: Working To
+              - textbox [disabled] [ref=e100]: 09-08-2023
+          - generic [ref=e102]:
+            - generic [ref=e103]: Employment Proof
+            - link "experience_letter_for_sales_manager_aba063248c.webp" [ref=e104] [cursor=pointer]:
+              - /url: https://bgccheckdev.s3.amazonaws.com/TRU000003/experience_letter_for_sales_manager_aba063248c.webp
+            - button "Choose File" [ref=e105]
+        - generic [ref=e107]:
+          - generic [ref=e108]: Remarks*
+          - textbox "Add remarks here..." [ref=e109]: Verified
+        - generic [ref=e110]:
+          - generic [ref=e111]:
+            - checkbox "Verification Status" [ref=e112] [cursor=pointer]
+            - text: Verification Status
+          - paragraph [ref=e113]: ⚠️ Once verified, this step will be locked and you cannot return to modify the Physical Employment details.
+        - generic [ref=e114]:
+          - button "Cancel" [ref=e115] [cursor=pointer]
+          - button "Submit" [ref=e116] [cursor=pointer]
+  - region "Notifications Alt+T"
+```

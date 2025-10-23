@@ -1,0 +1,5 @@
+Total Candidates Assigned are: 4
+Going to next Caniddate
+BGC Process started for the candidate TRU000003 with WORK_IN_PROGRESS status
+Entries: 2
+Employment Phsical is Completed
