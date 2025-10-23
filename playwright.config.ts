@@ -39,7 +39,7 @@ const config: PlaywrightTestConfig = {
   testMatch: ["**.spec.ts"],
   retries: 0,
   reporter: [
-    ["html", { outputFolder: `./reports/${resultDir}`, open: "never" }],['allure-playwright', { outputFolder: `./reports/${resultDir}/allure-results` }],
+    ["html", { outputFolder: `./reports/${resultDir}`, open: "never" }],['allure-playwright', { outputFolder: `./reports/${resultDir}/allure-results` }],["line"]
   //   ["line"], ["allure-playwright"],
   //   ['playwright-zephyr/lib/src/cloud', {
 
