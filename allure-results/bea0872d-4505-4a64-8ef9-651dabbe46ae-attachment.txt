@@ -1,0 +1,2 @@
+Started
+No of rows in the table: 2

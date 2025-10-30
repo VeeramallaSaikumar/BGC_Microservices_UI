@@ -1,0 +1,207 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - img "Company Logo" [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e9]: Deepthi.k
+        - img [ref=e10] [cursor=pointer]
+    - complementary [ref=e14]:
+      - navigation [ref=e15]:
+        - list [ref=e16]:
+          - listitem [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - listitem [ref=e24] [cursor=pointer]:
+            - img [ref=e25]
+            - generic [ref=e27]: Profile
+          - listitem [ref=e30] [cursor=pointer]:
+            - img [ref=e31]
+            - generic [ref=e33]: Add Candidate
+          - listitem [ref=e36] [cursor=pointer]:
+            - img [ref=e37]
+            - generic [ref=e39]: Pending forms
+          - generic [ref=e41]:
+            - listitem [ref=e42] [cursor=pointer]:
+              - img [ref=e43]
+              - generic [ref=e45]: Case Submission
+            - list [ref=e46]:
+              - listitem [ref=e47] [cursor=pointer]:
+                - generic [ref=e48]: Pending Case Submission
+              - listitem [ref=e49] [cursor=pointer]:
+                - generic [ref=e50]: Submitted Verification
+              - listitem [ref=e51] [cursor=pointer]:
+                - generic [ref=e52]: BGV In Progress Candidates
+              - listitem [ref=e53] [cursor=pointer]:
+                - generic [ref=e54]: BGV Completed Candidates
+              - listitem [ref=e55] [cursor=pointer]:
+                - generic [ref=e56]: Total Candidates
+    - main [ref=e58]:
+      - generic [ref=e59]:
+        - paragraph [ref=e60]: Submitted for Verification
+        - generic [ref=e61]:
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - text: Show
+              - combobox [ref=e64]:
+                - option "10" [selected]
+                - option "25"
+                - option "50"
+              - text: entries
+            - generic [ref=e66]:
+              - textbox "Search by name" [ref=e67]
+              - img
+          - table [ref=e69]:
+            - rowgroup [ref=e70]:
+              - row "Unique ID Name Email Mobile Number DOB Case Initiated Date Case Initiated Time Status Actions" [ref=e71]:
+                - cell "Unique ID" [ref=e72]
+                - cell "Name" [ref=e73]
+                - cell "Email" [ref=e74]
+                - cell "Mobile Number" [ref=e75]
+                - cell "DOB" [ref=e76]
+                - cell "Case Initiated Date" [ref=e77]
+                - cell "Case Initiated Time" [ref=e78]
+                - cell "Status" [ref=e79]
+                - cell "Actions" [ref=e80]
+            - rowgroup [ref=e81]:
+              - row "TRU000001 vikaskollu vikaskollu99@gmail.com 9014168715 13-06-1999 18-09-2025 14:53:07 VERIFIED" [ref=e82]:
+                - cell "TRU000001" [ref=e83]
+                - cell "vikaskollu" [ref=e84]
+                - cell "vikaskollu99@gmail.com" [ref=e85]
+                - cell "9014168715" [ref=e86]
+                - cell "13-06-1999" [ref=e87]
+                - cell "18-09-2025" [ref=e88]
+                - cell "14:53:07" [ref=e89]
+                - cell "VERIFIED" [ref=e90]:
+                  - generic [ref=e91]: VERIFIED
+                - cell [ref=e92] [cursor=pointer]:
+                  - button "View Report" [ref=e93]:
+                    - img [ref=e94]
+              - row "TRU000003 Sai kumar Veeramalla cstsaikumar@gmail.com 8247246031 23-09-1998 19-09-2025 05:38:34 YET_TO_START" [ref=e96]:
+                - cell "TRU000003" [ref=e97]
+                - cell "Sai kumar Veeramalla" [ref=e98]
+                - cell "cstsaikumar@gmail.com" [ref=e99]
+                - cell "8247246031" [ref=e100]
+                - cell "23-09-1998" [ref=e101]
+                - cell "19-09-2025" [ref=e102]
+                - cell "05:38:34" [ref=e103]
+                - cell "YET_TO_START" [ref=e104]:
+                  - generic [ref=e105]: YET_TO_START
+                - cell [ref=e106] [cursor=pointer]:
+                  - button "View Report" [ref=e107]:
+                    - img [ref=e108]
+              - row "TRU000004 PavanKumar Janagam pavanjanagam99@gmail.com 9876543212 01-01-1999 22-09-2025 16:05:37 COMPLETED" [ref=e110]:
+                - cell "TRU000004" [ref=e111]
+                - cell "PavanKumar Janagam" [ref=e112]
+                - cell "pavanjanagam99@gmail.com" [ref=e113]
+                - cell "9876543212" [ref=e114]
+                - cell "01-01-1999" [ref=e115]
+                - cell "22-09-2025" [ref=e116]
+                - cell "16:05:37" [ref=e117]
+                - cell "COMPLETED" [ref=e118]:
+                  - generic [ref=e119]: COMPLETED
+                - cell [ref=e120] [cursor=pointer]:
+                  - button "View Report" [ref=e121]:
+                    - img [ref=e122]
+              - row "TRU000005 Sai Veeramalla saic34163+988@gmail.com 9875432100 23-09-1997 23-09-2025 08:33:36 COMPLETED" [ref=e124]:
+                - cell "TRU000005" [ref=e125]
+                - cell "Sai Veeramalla" [ref=e126]
+                - cell "saic34163+988@gmail.com" [ref=e127]
+                - cell "9875432100" [ref=e128]
+                - cell "23-09-1997" [ref=e129]
+                - cell "23-09-2025" [ref=e130]
+                - cell "08:33:36" [ref=e131]
+                - cell "COMPLETED" [ref=e132]:
+                  - generic [ref=e133]: COMPLETED
+                - cell [ref=e134] [cursor=pointer]:
+                  - button "View Report" [ref=e135]:
+                    - img [ref=e136]
+              - row "TRU000006 Sai Veeramalla saic34163+76@gmail.com 9875432100 23-09-1997 23-09-2025 08:37:02 WORK_IN_PROGRESS" [ref=e138]:
+                - cell "TRU000006" [ref=e139]
+                - cell "Sai Veeramalla" [ref=e140]
+                - cell "saic34163+76@gmail.com" [ref=e141]
+                - cell "9875432100" [ref=e142]
+                - cell "23-09-1997" [ref=e143]
+                - cell "23-09-2025" [ref=e144]
+                - cell "08:37:02" [ref=e145]
+                - cell "WORK_IN_PROGRESS" [ref=e146]:
+                  - generic [ref=e147]: WORK_IN_PROGRESS
+                - cell [ref=e148] [cursor=pointer]:
+                  - button "View Report" [ref=e149]:
+                    - img [ref=e150]
+              - row "TRU000008 Sai Veeramalla saic34163+878787@gmail.com 9875432100 23-09-1997 26-09-2025 11:45:23 WORK_IN_PROGRESS" [ref=e152]:
+                - cell "TRU000008" [ref=e153]
+                - cell "Sai Veeramalla" [ref=e154]
+                - cell "saic34163+878787@gmail.com" [ref=e155]
+                - cell "9875432100" [ref=e156]
+                - cell "23-09-1997" [ref=e157]
+                - cell "26-09-2025" [ref=e158]
+                - cell "11:45:23" [ref=e159]
+                - cell "WORK_IN_PROGRESS" [ref=e160]:
+                  - generic [ref=e161]: WORK_IN_PROGRESS
+                - cell [ref=e162] [cursor=pointer]:
+                  - button "View Report" [ref=e163]:
+                    - img [ref=e164]
+              - row "TRU000009 Veeramalla Sai Kumar saic34163+gn@gmail.com 7777777777 23-09-2025 30-09-2025 10:29:57 WORK_IN_PROGRESS" [ref=e166]:
+                - cell "TRU000009" [ref=e167]
+                - cell "Veeramalla Sai Kumar" [ref=e168]
+                - cell "saic34163+gn@gmail.com" [ref=e169]
+                - cell "7777777777" [ref=e170]
+                - cell "23-09-2025" [ref=e171]
+                - cell "30-09-2025" [ref=e172]
+                - cell "10:29:57" [ref=e173]
+                - cell "WORK_IN_PROGRESS" [ref=e174]:
+                  - generic [ref=e175]: WORK_IN_PROGRESS
+                - cell [ref=e176] [cursor=pointer]:
+                  - button "View Report" [ref=e177]:
+                    - img [ref=e178]
+              - row "TRU000018 kafka test saic34163@gmail.com 7095525809 11-05-1998 07-10-2025 17:47:02 YET_TO_START" [ref=e180]:
+                - cell "TRU000018" [ref=e181]
+                - cell "kafka test" [ref=e182]
+                - cell "saic34163@gmail.com" [ref=e183]
+                - cell "7095525809" [ref=e184]
+                - cell "11-05-1998" [ref=e185]
+                - cell "07-10-2025" [ref=e186]
+                - cell "17:47:02" [ref=e187]
+                - cell "YET_TO_START" [ref=e188]:
+                  - generic [ref=e189]: YET_TO_START
+                - cell [ref=e190] [cursor=pointer]:
+                  - button "View Report" [ref=e191]:
+                    - img [ref=e192]
+              - row "TRU000020 Veeramalla Sai Kumar saic34163+dfdfn@gmail.com 9890980980 23-09-1998 08-10-2025 05:48:04 WORK_IN_PROGRESS" [ref=e194]:
+                - cell "TRU000020" [ref=e195]
+                - cell "Veeramalla Sai Kumar" [ref=e196]
+                - cell "saic34163+dfdfn@gmail.com" [ref=e197]
+                - cell "9890980980" [ref=e198]
+                - cell "23-09-1998" [ref=e199]
+                - cell "08-10-2025" [ref=e200]
+                - cell "05:48:04" [ref=e201]
+                - cell "WORK_IN_PROGRESS" [ref=e202]:
+                  - generic [ref=e203]: WORK_IN_PROGRESS
+                - cell [ref=e204] [cursor=pointer]:
+                  - button "View Report" [ref=e205]:
+                    - img [ref=e206]
+              - row "TRU000026 vikaskollu vikaskollu28@gmail.com 9014168715 13-06-1999 27-10-2025 07:57:19 YET_TO_START" [ref=e208]:
+                - cell "TRU000026" [ref=e209]
+                - cell "vikaskollu" [ref=e210]
+                - cell "vikaskollu28@gmail.com" [ref=e211]
+                - cell "9014168715" [ref=e212]
+                - cell "13-06-1999" [ref=e213]
+                - cell "27-10-2025" [ref=e214]
+                - cell "07:57:19" [ref=e215]
+                - cell "YET_TO_START" [ref=e216]:
+                  - generic [ref=e217]: YET_TO_START
+                - cell [ref=e218] [cursor=pointer]:
+                  - button "View Report" [ref=e219]:
+                    - img [ref=e220]
+          - generic [ref=e222]:
+            - generic [ref=e223]: Showing 1 to 10 of 11 entries
+            - generic [ref=e224]:
+              - button "←" [disabled] [ref=e225]
+              - button "1" [ref=e226] [cursor=pointer]
+              - button "2" [ref=e227] [cursor=pointer]
+              - button "→" [ref=e228] [cursor=pointer]
+  - region "Notifications Alt+T"
+```

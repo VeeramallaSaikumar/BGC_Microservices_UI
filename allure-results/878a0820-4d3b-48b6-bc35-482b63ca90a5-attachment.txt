@@ -1,0 +1,6 @@
+BGV InProgress Caniddate are
+Candidates details
+Candidate Id: TRU000006 | Case Initiated Date: 2025-09-23 | Case Initiated Time: 08:37:02
+Candidate Id: TRU000008 | Case Initiated Date: 2025-09-26 | Case Initiated Time: 11:45:23
+Candidate Id: TRU000009 | Case Initiated Date: 2025-09-30 | Case Initiated Time: 10:29:57
+Candidate Id: TRU000020 | Case Initiated Date: 2025-10-08 | Case Initiated Time: 05:48:04

@@ -1,0 +1,276 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - img "Company Logo" [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e9]: Deepthi.k
+        - img [ref=e10] [cursor=pointer]
+    - complementary [ref=e14]:
+      - navigation [ref=e15]:
+        - list [ref=e16]:
+          - listitem [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - listitem [ref=e24] [cursor=pointer]:
+            - img [ref=e25]
+            - generic [ref=e27]: Profile
+          - listitem [ref=e30] [cursor=pointer]:
+            - img [ref=e31]
+            - generic [ref=e33]: Add Candidate
+          - listitem [ref=e36] [cursor=pointer]:
+            - img [ref=e37]
+            - generic [ref=e39]: Pending forms
+          - listitem [ref=e42] [cursor=pointer]:
+            - img [ref=e43]
+            - generic [ref=e45]: Case Submission
+    - button [ref=e47] [cursor=pointer]:
+      - img [ref=e48]
+    - main [ref=e50]:
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - heading "Welcome back" [level=1] [ref=e54]
+          - button "Add Candidate" [ref=e55] [cursor=pointer]:
+            - img [ref=e56]
+            - text: Add Candidate
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - paragraph [ref=e60]: Total Applicants
+            - generic:
+              - paragraph [ref=e61]: "44"
+              - img [ref=e63]
+          - generic [ref=e66]:
+            - paragraph [ref=e67]: Pending Submission
+            - generic:
+              - paragraph [ref=e68]: "30"
+              - img [ref=e70]
+          - generic [ref=e74]:
+            - paragraph [ref=e75]: Pending Case Submission
+            - generic:
+              - paragraph [ref=e76]: "3"
+              - img [ref=e78]
+          - generic [ref=e83]:
+            - paragraph [ref=e84]: Submitted for Verification
+            - generic:
+              - paragraph [ref=e85]: "11"
+              - img [ref=e87]
+          - generic [ref=e90]:
+            - paragraph [ref=e91]: Login Expired
+            - generic:
+              - paragraph [ref=e92]: "0"
+              - img [ref=e94]
+          - generic [ref=e99]:
+            - paragraph [ref=e100]: BGC Completed
+            - generic:
+              - paragraph [ref=e101]: "2"
+              - img [ref=e103]
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - heading "Overall Candidate Status" [level=2] [ref=e108]
+            - generic [ref=e109]:
+              - application [ref=e111]:
+                - application [ref=e112]
+              - generic [ref=e125]:
+                - generic [ref=e126]: Total Candidates
+                - generic [ref=e128]: Pending Submission
+                - generic [ref=e130]: Pending Case Submission
+                - generic [ref=e132]: Submitted for Verification
+                - generic [ref=e134]: Login Expired Candidates
+                - generic [ref=e136]: Completed Verification
+          - generic [ref=e138]:
+            - heading "Activity Feed" [level=2] [ref=e139]
+            - paragraph [ref=e141]: No recent activity yet.
+          - generic [ref=e142]:
+            - generic [ref=e143]:
+              - heading "Recent Candidates" [level=2] [ref=e144]
+              - generic [ref=e145]:
+                - generic [ref=e146]:
+                  - img "static_img" [ref=e147]
+                  - generic [ref=e148]:
+                    - paragraph [ref=e149]: Deepthi
+                    - generic [ref=e150]: 2025-10-29
+                  - generic [ref=e151]: PENDING_SUBMISSION
+                - generic [ref=e152]:
+                  - img "static_img" [ref=e153]
+                  - generic [ref=e154]:
+                    - paragraph [ref=e155]: Deepthi
+                    - generic [ref=e156]: 2025-10-29
+                  - generic [ref=e157]: PENDING_SUBMISSION
+                - generic [ref=e158]:
+                  - img "static_img" [ref=e159]
+                  - generic [ref=e160]:
+                    - paragraph [ref=e161]: Deepthi
+                    - generic [ref=e162]: 2025-10-29
+                  - generic [ref=e163]: YET_TO_START
+                - generic [ref=e164]:
+                  - img "static_img" [ref=e165]
+                  - generic [ref=e166]:
+                    - paragraph [ref=e167]: Deepthi
+                    - generic [ref=e168]: 2025-10-29
+                  - generic [ref=e169]: PENDING_SUBMISSION
+                - generic [ref=e170]:
+                  - img "static_img" [ref=e171]
+                  - generic [ref=e172]:
+                    - paragraph [ref=e173]: Deepthi
+                    - generic [ref=e174]: 2025-10-29
+                  - generic [ref=e175]: PENDING_SUBMISSION
+                - generic [ref=e176]:
+                  - img "static_img" [ref=e177]
+                  - generic [ref=e178]:
+                    - paragraph [ref=e179]: Deepthi
+                    - generic [ref=e180]: 2025-10-29
+                  - generic [ref=e181]: PENDING_SUBMISSION
+                - generic [ref=e182]:
+                  - img "static_img" [ref=e183]
+                  - generic [ref=e184]:
+                    - paragraph [ref=e185]: Deepthi
+                    - generic [ref=e186]: 2025-10-29
+                  - generic [ref=e187]: PENDING_SUBMISSION
+                - generic [ref=e188]:
+                  - img "static_img" [ref=e189]
+                  - generic [ref=e190]:
+                    - paragraph [ref=e191]: Deepthi
+                    - generic [ref=e192]: 2025-10-29
+                  - generic [ref=e193]: PENDING_SUBMISSION
+                - generic [ref=e194]:
+                  - img "static_img" [ref=e195]
+                  - generic [ref=e196]:
+                    - paragraph [ref=e197]: Deepthi
+                    - generic [ref=e198]: 2025-10-28
+                  - generic [ref=e199]: PENDING_SUBMISSION
+                - generic [ref=e200]:
+                  - img "static_img" [ref=e201]
+                  - generic [ref=e202]:
+                    - paragraph [ref=e203]: Deepthi
+                    - generic [ref=e204]: 2025-10-28
+                  - generic [ref=e205]: PENDING_SUBMISSION
+            - generic [ref=e206]:
+              - heading "Form Submissions" [level=2] [ref=e207]
+              - generic [ref=e208]:
+                - generic [ref=e209]:
+                  - img "static_img" [ref=e210]
+                  - generic [ref=e211]:
+                    - paragraph [ref=e212]: vikaskollu
+                    - generic [ref=e213]: 2025-09-18
+                  - button "Request Sent" [disabled] [ref=e214] [cursor=pointer]
+                - generic [ref=e215]:
+                  - img "static_img" [ref=e216]
+                  - generic [ref=e217]:
+                    - paragraph [ref=e218]: Sai kumar Veeramalla
+                    - generic [ref=e219]: 2025-09-19
+                  - button "Request Sent" [disabled] [ref=e220] [cursor=pointer]
+                - generic [ref=e221]:
+                  - img "static_img" [ref=e222]
+                  - generic [ref=e223]:
+                    - paragraph [ref=e224]: PavanKumar Janagam
+                    - generic [ref=e225]: 2025-09-22
+                  - button "Request Sent" [disabled] [ref=e226] [cursor=pointer]
+                - generic [ref=e227]:
+                  - img "static_img" [ref=e228]
+                  - generic [ref=e229]:
+                    - paragraph [ref=e230]: Sai Veeramalla
+                    - generic [ref=e231]: 2025-09-23
+                  - button "Request Sent" [disabled] [ref=e232] [cursor=pointer]
+                - generic [ref=e233]:
+                  - img "static_img" [ref=e234]
+                  - generic [ref=e235]:
+                    - paragraph [ref=e236]: Sai Veeramalla
+                    - generic [ref=e237]: 2025-09-23
+                  - button "Request Sent" [disabled] [ref=e238] [cursor=pointer]
+                - generic [ref=e239]:
+                  - img "static_img" [ref=e240]
+                  - generic [ref=e241]:
+                    - paragraph [ref=e242]: Sai Veeramalla
+                    - generic [ref=e243]: 2025-09-26
+                  - button "Request Sent" [disabled] [ref=e244] [cursor=pointer]
+                - generic [ref=e245]:
+                  - img "static_img" [ref=e246]
+                  - generic [ref=e247]:
+                    - paragraph [ref=e248]: Veeramalla Sai Kumar
+                    - generic [ref=e249]: 2025-09-30
+                  - button "Request Sent" [disabled] [ref=e250] [cursor=pointer]
+                - generic [ref=e251]:
+                  - img "static_img" [ref=e252]
+                  - generic [ref=e253]:
+                    - paragraph [ref=e254]: kafka test
+                    - generic [ref=e255]: 2025-10-07
+                  - button "Request Sent" [disabled] [ref=e256] [cursor=pointer]
+                - generic [ref=e257]:
+                  - img "static_img" [ref=e258]
+                  - generic [ref=e259]:
+                    - paragraph [ref=e260]: Veeramalla Sai Kumar
+                    - generic [ref=e261]: 2025-10-08
+                  - button "Request Sent" [disabled] [ref=e262] [cursor=pointer]
+                - generic [ref=e263]:
+                  - img "static_img" [ref=e264]
+                  - generic [ref=e265]:
+                    - paragraph [ref=e266]: vikaskollu
+                    - generic [ref=e267]: 2025-10-27
+                  - button "Request Sent" [disabled] [ref=e268] [cursor=pointer]
+            - generic [ref=e269]:
+              - heading "Reports" [level=2] [ref=e270]
+              - generic [ref=e271]:
+                - generic [ref=e272]:
+                  - img "static_img" [ref=e273]
+                  - generic [ref=e274]:
+                    - paragraph [ref=e275]: vikaskollu
+                    - generic [ref=e276]: 2025-09-18
+                  - paragraph [ref=e277]: completed
+                - generic [ref=e278]:
+                  - img "static_img" [ref=e279]
+                  - generic [ref=e280]:
+                    - paragraph [ref=e281]: Sai kumar Veeramalla
+                    - generic [ref=e282]: 2025-09-19
+                  - paragraph [ref=e283]: completed
+                - generic [ref=e284]:
+                  - img "static_img" [ref=e285]
+                  - generic [ref=e286]:
+                    - paragraph [ref=e287]: PavanKumar Janagam
+                    - generic [ref=e288]: 2025-09-22
+                  - paragraph [ref=e289]: completed
+                - generic [ref=e290]:
+                  - img "static_img" [ref=e291]
+                  - generic [ref=e292]:
+                    - paragraph [ref=e293]: Sai Veeramalla
+                    - generic [ref=e294]: 2025-09-23
+                  - paragraph [ref=e295]: completed
+                - generic [ref=e296]:
+                  - img "static_img" [ref=e297]
+                  - generic [ref=e298]:
+                    - paragraph [ref=e299]: Sai Veeramalla
+                    - generic [ref=e300]: 2025-09-23
+                  - paragraph [ref=e301]: completed
+                - generic [ref=e302]:
+                  - img "static_img" [ref=e303]
+                  - generic [ref=e304]:
+                    - paragraph [ref=e305]: Sai Veeramalla
+                    - generic [ref=e306]: 2025-09-26
+                  - paragraph [ref=e307]: completed
+                - generic [ref=e308]:
+                  - img "static_img" [ref=e309]
+                  - generic [ref=e310]:
+                    - paragraph [ref=e311]: Veeramalla Sai Kumar
+                    - generic [ref=e312]: 2025-09-30
+                  - paragraph [ref=e313]: completed
+                - generic [ref=e314]:
+                  - img "static_img" [ref=e315]
+                  - generic [ref=e316]:
+                    - paragraph [ref=e317]: kafka test
+                    - generic [ref=e318]: 2025-10-07
+                  - paragraph [ref=e319]: completed
+                - generic [ref=e320]:
+                  - img "static_img" [ref=e321]
+                  - generic [ref=e322]:
+                    - paragraph [ref=e323]: Veeramalla Sai Kumar
+                    - generic [ref=e324]: 2025-10-08
+                  - paragraph [ref=e325]: completed
+                - generic [ref=e326]:
+                  - img "static_img" [ref=e327]
+                  - generic [ref=e328]:
+                    - paragraph [ref=e329]: vikaskollu
+                    - generic [ref=e330]: 2025-10-27
+                  - paragraph [ref=e331]: completed
+  - region "Notifications Alt+T"
+```

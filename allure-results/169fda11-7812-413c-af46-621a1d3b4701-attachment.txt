@@ -1,0 +1,4 @@
+going to select option
+44
+one candidate found in completed
+Downloaded file path: C:\Users\SAIKUM~1\AppData\Local\Temp\playwright-artifacts-7B3sbR\5a3e1372-d266-48c1-b63b-4583cb2c391d
