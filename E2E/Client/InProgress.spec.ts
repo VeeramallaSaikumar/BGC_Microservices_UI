@@ -4,7 +4,7 @@ import * as helpers from "../../utilities/helpers"
 
 test.describe("BGC-Web-Client-InProgress List",{tag:["@Client","@Regression"]},async()=>{
     let stepTitle:string;
-    test("[T156] Validating BGC In Progress list",async ({ loginPage, page, bgvInProgress }, testInfo) => {
+    test("[T153] Validating BGC In Progress list",async ({ loginPage, page, bgvInProgress }, testInfo) => {
         stepTitle = "login";
         await test.step(stepTitle, async () => {
             await loginPage.login(ENV.CLIENT_EMAIL, ENV.CLIENT_PWD);

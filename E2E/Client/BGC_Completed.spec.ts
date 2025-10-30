@@ -4,7 +4,7 @@ import * as helpers from "../../utilities/helpers"
 
 test.describe("BGC-Web-Client-BGC_Completed",{tag:["@Client","@Regression"]},async()=>{
     let stepTitle:string;
-    test("[T156] Validating BGC Completed list",async ({ loginPage, page, bgvCompleted }, testInfo) => {
+    test("[T154] Validating BGC Completed list",async ({ loginPage, page, bgvCompleted }, testInfo) => {
         stepTitle = "login";
         await test.step(stepTitle, async () => {
             await loginPage.login(ENV.CLIENT_EMAIL, ENV.CLIENT_PWD);
