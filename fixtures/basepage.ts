@@ -18,6 +18,11 @@ import UANCheck from "../pages/Employee/UANCheck";
 import CriminalCheck from "../pages/Employee/CriminalCheck";
 import EmployeementVirtualCheck from "../pages/Employee/EmploymentVirtualCheck";
 import EmployeeProfile from "../pages/Employee/Profile";
+import LoginExpireCandidates from "../pages/Client/LoginExpiredCandidates";
+import TotalCandidates from "../pages/Client/TotalCandidates";
+import SubmittedForVerification from "../pages/Client/SubmittedForVerification";
+import BGCInProgres from "../pages/Client/InProgress"
+import BGCCompleted from "../pages/Client/BGC_Completed"
 
 const mytest = baseTest.extend<{
     loginPage: LoginPage;
@@ -39,6 +44,11 @@ const mytest = baseTest.extend<{
     criminalCheck:CriminalCheck
     employmentVirtualCheck:EmployeementVirtualCheck
     employeeProfile:EmployeeProfile
+    loginExpireCan:LoginExpireCandidates
+    totalCandidate:TotalCandidates
+    submittedforVerification:SubmittedForVerification
+    bgvInProgress:BGCInProgres
+    bgvCompleted:BGCCompleted
 }>({
     loginPage: async ({page}, use) => {
       await use (new LoginPage(page));
@@ -96,6 +106,21 @@ const mytest = baseTest.extend<{
   },
   employeeProfile:async({page},use)=>{
     await use(new EmployeeProfile(page))
+  },
+  loginExpireCan:async({page},use)=>{
+    await use(new LoginExpireCandidates(page))
+  },
+  totalCandidate:async({page},use)=>{
+    await use(new TotalCandidates(page))
+  },
+  submittedforVerification:async({page},use)=>{
+    await use(new SubmittedForVerification(page))
+  },
+  bgvCompleted:async({page},use)=>{
+    await use(new BGCCompleted(page))
+  },
+  bgvInProgress:async({page},use)=>{
+    await use(new BGCInProgres(page))
   }
 })
 export default mytest;

@@ -32,7 +32,7 @@ class PendingCaseSubmission{
         this.yesBtn=page.locator("//button[text()='Yes']")
         this.cancelBtn=page.locator("//button[text()='Cancel']")
         this.ok=page.locator("//button[text()='OK']")
-        this.viewDetailsHeader=page.locator("//p[text()='View Candidate Details']")
+        this.viewDetailsHeader=page.locator("h1.report-main-title")
     }
     public async viewCandidateDetails(){
         await this.caseSubMenuBtn.click()
@@ -41,6 +41,7 @@ class PendingCaseSubmission{
         await expect(this.pendingCaseSubHeader).toBeVisible()
         await this.page.waitForLoadState("domcontentloaded")
         await this.showEntries.selectOption("50")
+        await this.page.waitForTimeout(2000)
         const rowCount=await this.rows.count()
         console.log("No of rows in the table: "+rowCount)
         if(rowCount>0){
@@ -66,6 +67,27 @@ class PendingCaseSubmission{
         await this.page.waitForLoadState("domcontentloaded")
         await this.yesBtn.click()
         await this.ok.click()
+        await this.page.waitForLoadState("domcontentloaded")
+        await expect(this.pendingCaseSubHeader).toBeVisible()
+        }
+        else{
+            console.log("No Candidates to Request for BGC")
+        }
+    }
+     public async requestForBGCForCandidatewithNegativeflow(){
+        await this.page.waitForLoadState("domcontentloaded")
+        await this.caseSubMenuBtn.click()
+        await this.pendingCaseSubMenuBtn.click()
+        await expect(this.pendingCaseSubHeader).toBeVisible()
+        await this.page.waitForLoadState("domcontentloaded")
+        await this.showEntries.selectOption("50")
+        const rowCount=await this.rows.count()
+        console.log("No of rows in the table: "+rowCount)
+        if(rowCount>0){
+        await this.requestForBGC.first().click()
+        await this.page.waitForLoadState("domcontentloaded")
+        await this.cancelBtn.click()
+        await expect(this.pendingCaseSubHeader).toBeVisible()
         }
         else{
             console.log("No Candidates to Request for BGC")

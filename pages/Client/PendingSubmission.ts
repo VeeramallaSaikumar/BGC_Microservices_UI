@@ -62,7 +62,7 @@ class PendingSubmission{
         await this.pendingformBtn.click()
         await this.pendingSubmissionMenuBtn.click()
         await expect(this.pendingSubHeader).toBeVisible()
-        await this.deleteIcon.click()
+        await this.deleteIcon.first().click()
         await this.page.waitForLoadState("domcontentloaded")
         // await this.yesBtn.click()
         await this.noBtn.click()

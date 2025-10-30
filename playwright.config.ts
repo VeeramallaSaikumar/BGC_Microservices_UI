@@ -41,7 +41,6 @@ const config: PlaywrightTestConfig = {
   testMatch: ["**.spec.ts"],
   reporter: [
     ["html", { outputFolder: `./reports/${resultDir}`, open: "never" }],['allure-playwright', { outputFolder: `./reports/${resultDir}/allure-results` }],["line"],["github"]
-  //   ["line"], ["allure-playwright"],
   //   ['playwright-zephyr/lib/src/cloud', {
 
   //     projectKey: 'BGCM', // <-- Replace with your project key
@@ -55,5 +54,4 @@ const config: PlaywrightTestConfig = {
   //   }],
   ],
 };
-
 export default config;
