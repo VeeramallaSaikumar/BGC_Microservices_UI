@@ -20,7 +20,7 @@ const resultDir = path.join(
 const config: PlaywrightTestConfig = {
   workers: process.env.CI ? 1:undefined,
   fullyParallel: true,
-  retries: process.env.CI ? 2 :0,
+  retries: process.env.CI ? 0 :0,
   testDir: "./E2E",
   timeout: 1000 * 100,
   expect: {
