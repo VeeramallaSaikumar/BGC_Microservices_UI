@@ -29,7 +29,7 @@ const config: PlaywrightTestConfig = {
   use: {
     //viewport: { width: 1800, height: 1000 },
     viewport: null,
-    headless: false,
+    headless: true,
     baseURL: "http://98.88.198.253/",
     screenshot: "on",
     video: "on",
