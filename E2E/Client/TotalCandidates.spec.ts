@@ -28,7 +28,7 @@ test.describe("BGC-Web-Client-Total Candidates",{tag:["@Client","@Regression"]},
             await totalCandidate.viewDetails()
         })
     })
-    test("[T182] Validatin the download icon availability",async ({ loginPage, page, totalCandidate }, testInfo) => {
+    test("[T182] Validating the download icon availability",async ({ loginPage, page, totalCandidate }, testInfo) => {
         stepTitle = "login";
         await test.step(stepTitle, async () => {
             await loginPage.login(ENV.CLIENT_EMAIL, ENV.CLIENT_PWD);

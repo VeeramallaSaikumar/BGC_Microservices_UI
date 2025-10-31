@@ -97,15 +97,13 @@ class TotalCandidates {
         console.log("No.of Rows: ",details)
         await this.page.waitForTimeout(3000)
         for (let i = 0; i < details; i++) {
-            console.log("No.of Rows: ",details)
             const state = await this.rows.nth(i).locator(this.status).textContent()
             await this.page.waitForTimeout(5000)
             if(state=="COMPLETED" || state=="YET_TO_START" || state=="WORK_IN_PROGRESS" || state=="VERIFIED"){
                 await this.rows.nth(i).locator(this.viewDetailsIcon).click()
-                await this.page.waitForTimeout(5000)
+                await this.page.waitForTimeout(2000)
                 break
             }
-            else console.log("All are in Pending Submission")
         }
     }
     public async eyeIconAvailable(){
