@@ -27,8 +27,7 @@ const config: PlaywrightTestConfig = {
     timeout: 5000,
   },
   use: {
-    //viewport: { width: 1800, height: 1000 },
-    viewport: null,
+    viewport: { width: 1800, height: 1000 },
     headless: true,
     baseURL: "http://98.88.198.253/",
     screenshot: "on",

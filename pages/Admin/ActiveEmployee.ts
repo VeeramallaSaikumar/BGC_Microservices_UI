@@ -30,8 +30,8 @@ class ActiveEmployee {
        this.actEmpName=page.locator('//table[@class="admin-table"]/tbody/tr[1]/td[2]')
        this.actEmpId=page.locator('//table[@class="admin-table"]/tbody/tr[1]/td[1]')
        this.actAssinedCandidatesBtn=page.locator('//table[@class="admin-employee-table"]/tbody/tr[1]/td[5]/button')
-       this.editIcon=page.locator('//table[@class="admin-employee-table"]/tbody/tr[1]/td[6]/button[1]')
-       this.deleteIcon=page.locator('//table[@class="admin-employee-table"]/tbody/tr[1]/td[6]/button[2]')
+       this.editIcon=page.locator("//button[@title='Edit']")
+       this.deleteIcon=page.locator("//button[@title='Delete']")
        this.searchBox=page.locator('//input[@placeholder="Search by Employee ID or Name"]')    
        this.rows=page.locator('table tbody tr')
        this.mobileNumber=page.locator('//input[@name="mobileNumber"]')
@@ -60,7 +60,7 @@ class ActiveEmployee {
         await this.page.waitForTimeout(2000)
         await this.actAssinedCandidatesBtn.click()
         const rowCount= await this.rows.count()
-        console.log(`Total Assigned Candidates For Employee ID ${await this.actEmpId.textContent()} and Name ${await this.actEmpName.textContent()} is: ${rowCount}`);        
+        console.log(`Total Assigned Candidates For Employee ID is: ${rowCount}`);        
     }
     public async editingActiveEmployeeInfo(number:any){
         await this.page.waitForLoadState("domcontentloaded")
@@ -70,7 +70,7 @@ class ActiveEmployee {
         await this.page.waitForTimeout(2000)
         await this.activeEmpHeader.waitFor({state:"visible"})
         await this.page.waitForTimeout(2000)
-        await this.editIcon.click()
+        await this.editIcon.first().click()
         await this.page.waitForTimeout(2000)
         await this.mobileNumber.fill(number)
         await this.updateBtn.click()

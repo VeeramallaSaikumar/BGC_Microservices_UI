@@ -31,9 +31,7 @@ test.describe("BGC-WEB-Admin-Add Employee", { tag: ['@Admin', '@Regression'] }, 
       console.log("Employee Gender: ", gender)
       console.log("Employee Email: ", email);
       console.log("Employee Phone: ", employeePhone);
-      console.log("Future Date:", dob);
-      console.log("Future Date:", randomNumber1to4)
-
+      console.log("Date of Birth:", dob);
       await addEmployee.employeeValidDetails(Name + "Auto", company + "Auto", email, employeePhone, dob);
     });
   })
