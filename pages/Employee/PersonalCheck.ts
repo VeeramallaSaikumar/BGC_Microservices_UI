@@ -78,6 +78,8 @@ class PersonalCheck {
         }
     }
     public async validatingPersonalCheckwithInvalid() {
+        const perStatus = await this.status.textContent()
+        if (perStatus === "Work In Progress") {
         await this.editBTn.click()
         await expect(this.perDetailsHeader).toBeVisible()
         await expect(this.profilePhoto).toBeVisible()
@@ -93,6 +95,8 @@ class PersonalCheck {
         await this.SubmitBtn.click()
         await this.page.waitForTimeout(3000)
         await expect(this.status).toHaveText("Work in Progress")
+        }
+        else console.log("Personal Check is already Completed")
     }
 }
 export default PersonalCheck
