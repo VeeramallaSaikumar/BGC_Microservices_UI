@@ -60,7 +60,7 @@ class ActiveEmployee {
         await this.page.waitForTimeout(2000)
         await this.actAssinedCandidatesBtn.click()
         const rowCount= await this.rows.count()
-        console.log(`Total Assigned Candidates For Employee ID is: ${rowCount}`);        
+        console.log(`Total Assigned Candidates For an Employee is: ${rowCount}`);        
     }
     public async editingActiveEmployeeInfo(number:any){
         await this.page.waitForLoadState("domcontentloaded")

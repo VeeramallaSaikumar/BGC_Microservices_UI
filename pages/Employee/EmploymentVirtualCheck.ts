@@ -1,4 +1,5 @@
 import { Locator,Page,expect } from "@playwright/test"
+import path from "path"
 
 class EmployeementVirtualCheck{
     readonly page:Page
@@ -86,14 +87,15 @@ class EmployeementVirtualCheck{
             await this.forms.nth(j).locator(this.companyName).isVisible()
             const header=await this.forms.nth(j).locator(this.companyName).textContent()
             console.log(`Orgnaization name: ${header}`)
-            await this.chooseFile.setInputFiles("C://Users//SaikumarVeeramalla//OneDrive - Client Server Technology Solutions LLC//Desktop//Files Dummy//Education2.png")
+            const filechoose=path.resolve("testData/testFiles/experience_letterc.png")
+            await this.chooseFile.setInputFiles(filechoose)
         }
         await this.remarks.fill("Verified")
         await this.veriStatus.check()
         await this.page.waitForTimeout(3000)
-        // await this.submBtn.click()
-        // await this.page.waitForLoadState("domcontentloaded")
-        // await expect(this.status).toHaveText('Completed')
+        await this.submBtn.click()
+        await this.page.waitForLoadState("domcontentloaded")
+        await expect(this.status).toHaveText('Completed')
         }
         else console.log("Employment Check is already done")
     }
@@ -128,12 +130,12 @@ class EmployeementVirtualCheck{
             await this.forms.nth(j).locator(this.companyName).isVisible()
             const header=await this.forms.nth(j).locator(this.companyName).textContent()
             console.log(`Orgnaization name: ${header}`)
-            await this.chooseFile.setInputFiles("C://Users//SaikumarVeeramalla//OneDrive - Client Server Technology Solutions LLC//Desktop//Files Dummy//Education2.png")
+            await this.chooseFile.setInputFiles(path.resolve("testData/testFiles/experience_letterc.png"))
         }
         await this.remarks.fill("Verified")
         await this.submBtn.click()
         await this.page.waitForLoadState("domcontentloaded")
-        await expect(this.status).toHaveText('Completed')
+        await expect(this.status).toHaveText('Work In Progress')
         }
         else console.log("Employment Check is already done")
     }

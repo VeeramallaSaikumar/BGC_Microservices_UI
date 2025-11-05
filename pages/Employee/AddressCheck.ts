@@ -1,4 +1,5 @@
 import { expect, Locator, Page } from "@playwright/test"
+import path from "path"
 
 class AddressCheck {
     readonly page: Page
@@ -64,7 +65,8 @@ class AddressCheck {
                 await expect(this.cState).toBeDisabled()
                 await expect(this.cCity).toBeDisabled()
                 await expect(this.cZipCode).toBeDisabled()
-                await this.cAddressFileUpload.first().setInputFiles("C:/Users/SaikumarVeeramalla/OneDrive - Client Server Technology Solutions LLC/Desktop/Files Dummy/AddressElectricity.jpg")
+                const filepatca = path.resolve("testData/testFiles/AddressElectricity.jpg")
+                await this.cAddressFileUpload.first().setInputFiles(filepatca)
                 await expect(this.perAddressHeader).toBeVisible()
                 await expect(this.pAddressLine1).toBeDisabled()
                 await expect(this.pAddressLine2).toBeDisabled()
@@ -72,7 +74,8 @@ class AddressCheck {
                 await expect(this.pState).toBeDisabled()
                 await expect(this.pCity).toBeDisabled()
                 await expect(this.pZipCode).toBeDisabled()
-                await this.pAddressFileUpload.last().setInputFiles("C://Users//SaikumarVeeramalla//OneDrive - Client Server Technology Solutions LLC//Desktop//Files Dummy//AddressElectricity.jpg")
+                const filepatpa = path.resolve("testData/testFiles/AddressGas.jpg")
+                await this.pAddressFileUpload.last().setInputFiles(filepatpa)
                 await this.remarks.fill("Verified Address Details")
                 const isChecked=await this.veriStatus.isChecked()
                 if(isChecked) await this.veriStatus.uncheck()         
@@ -102,7 +105,8 @@ class AddressCheck {
                 await expect(this.cState).toBeDisabled()
                 await expect(this.cCity).toBeDisabled()
                 await expect(this.cZipCode).toBeDisabled()
-                await this.cAddressFileUpload.first().setInputFiles("C://Users//SaikumarVeeramalla//OneDrive - Client Server Technology Solutions LLC//Desktop//Files Dummy//AddressElectricity.jpg")
+                const filepatca = path.resolve("testData/testFiles/AddressElectricity.jpg")
+                await this.cAddressFileUpload.first().setInputFiles(filepatca)
                 await expect(this.perAddressHeader).toBeVisible()
                 await expect(this.pAddressLine1).toBeDisabled()
                 await expect(this.pAddressLine2).toBeDisabled()
@@ -110,7 +114,8 @@ class AddressCheck {
                 await expect(this.pState).toBeDisabled()
                 await expect(this.pCity).toBeDisabled()
                 await expect(this.pZipCode).toBeDisabled()
-                await this.pAddressFileUpload.last().setInputFiles("C://Users//SaikumarVeeramalla//OneDrive - Client Server Technology Solutions LLC//Desktop//Files Dummy//AddressElectricity.jpg")
+                const filepatpa = path.resolve("testData/testFiles/AddressGas.jpg")
+                await this.pAddressFileUpload.last().setInputFiles(filepatpa)
                 await this.remarks.fill("Verified Address Details")
                 const isChecked=await this.veriStatus.isChecked()
                 if(!isChecked) await this.veriStatus.check()

@@ -1,4 +1,5 @@
 import { Locator, Page, expect } from "@playwright/test"
+import path from "path"
 
 class EmploymentPhyCheck {
   readonly page: Page
@@ -30,8 +31,6 @@ class EmploymentPhyCheck {
     this.editICon = page.locator("//div[text()='Employment Check (Physical)']/../../div[2]/button")
     this.employmentCheck = page.locator("//h2[text()='Employment Verification']")
     this.employmentHeader = page.locator(`(//h3[text()='Employment Details'])`)
-    // this.empCode = page.locator(`(//h3[text()='Employment Details '])`)
-    // this.employeeCode=page.locator("/..div[1]/div[1]/input")
     this.empCode = (idx: number) => page.locator(`(//h3[text()='Employment Details '])[${idx}]/../div[1]/div[1]/input`)
     this.comName = (idx: number) => page.locator(`(//h3[text()='Employment Details '])[${idx}]/../div[1]/div[2]/input`)
     this.designation = (idx: number) => page.locator(`(//h3[text()='Employment Details '])[${idx}]/../div[2]/div[1]/input`)
@@ -71,12 +70,12 @@ class EmploymentPhyCheck {
           await this.workingFrom(i).isDisabled()
           await this.workingTo(i).isDisabled()
           await this.page.waitForTimeout(2323)
-          await this.empProof(i).setInputFiles("C:/Users/SaikumarVeeramalla/OneDrive - Client Server Technology Solutions LLC/Desktop/Files Dummy/experience_letter_for_sales_manager_aba063248c.webp")    
+          await this.empProof(i).setInputFiles(path.resolve("testData/testFiles/experience_letterc.png"))    
           await this.page.waitForTimeout(2323)
           console.log("One file is uploaded")
         }
         await this.remarks.fill("Verified")
-        // await this.veriStatus.check()
+        await this.veriStatus.check()
         await this.submitBtn.click()
         await expect(this.tosfify).toBeVisible()
       }
@@ -108,7 +107,7 @@ class EmploymentPhyCheck {
           await this.workingFrom(i).isDisabled()
           await this.workingTo(i).isDisabled()
           await this.page.waitForTimeout(2323)
-          await this.empProof(i).setInputFiles("C:/Users/SaikumarVeeramalla/OneDrive - Client Server Technology Solutions LLC/Desktop/Files Dummy/experience_letter_for_sales_manager_aba063248c.webp")    
+          await this.empProof(i).setInputFiles(path.resolve("testData/testFiles/experience_letterc.png"))   
           await this.page.waitForTimeout(2323)
           console.log("One file is uploaded")
         }

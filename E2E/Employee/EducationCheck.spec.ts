@@ -4,7 +4,7 @@ import * as helpers from "../../utilities/helpers"
 
 test.describe("BGC-WEB-Employee-Education Check",{tag:["@Employee","@Regression"]},async()=>{
     
-    test("Education check Preocess",async({loginPage, page, assignedCandidates, educationCheck},testInfo)=>{
+    test("[T342] Education check Process",async({loginPage, page, assignedCandidates, educationCheck},testInfo)=>{
         let stepTitle:string
         stepTitle = "login";
         await test.step(stepTitle, async () => {
@@ -22,7 +22,7 @@ test.describe("BGC-WEB-Employee-Education Check",{tag:["@Employee","@Regression"
             await educationCheck.educationCheckFileUpload()
         })
     })
-    test("Validating Education check without Verification Status",async({loginPage, page, assignedCandidates, educationCheck},testInfo)=>{
+    test("[T350] Validating Education check without Verification Status",async({loginPage, page, assignedCandidates, educationCheck},testInfo)=>{
         let stepTitle:string
         stepTitle = "login";
         await test.step(stepTitle, async () => {
